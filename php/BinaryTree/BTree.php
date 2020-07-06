@@ -133,6 +133,15 @@ class Creator
 		return $res;
 	}
 
+	public static function inOrder1($root)
+	{
+		if (empty($root)) {
+			return $root;
+		}
+
+
+	}
+
 
 
 
