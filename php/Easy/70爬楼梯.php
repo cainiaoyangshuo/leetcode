@@ -40,4 +40,32 @@ function climbStairs($n) {
 	return $fibn/$sqrt5;
 }
 
-var_dump(climbStairs(4));
+function climbStairs1($n)
+{
+	if ($n == 1 || $n == 2)
+		return 1;
+
+
+	echo $n . ' ';
+	return climbStairs1($n-1) + climbStairs1($n-2);
+}
+
+function climbStairs2($n)
+{
+	if ($n < 0) {
+		return -1;
+	}
+	if ($n == 1 || $n == 2)
+		return 1;
+
+	$f1 = 1;
+	$f2 = 1;
+	for ($i=3;$i<=$n;$i++) {
+		$f3 = $f1 + $f2;
+		$f1 = $f2;
+		$f2 = $f3;
+	}
+	return $f3;
+}
+
+var_dump(climbStairs2(6));

@@ -111,7 +111,7 @@ class Creator
 	public static function preOrder1($root)
 	{
 		if (empty($root)) {
-			return $root;
+			return [];
 		}
 
 		$res = [];
