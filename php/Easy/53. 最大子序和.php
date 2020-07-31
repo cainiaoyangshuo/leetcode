@@ -43,7 +43,7 @@ class Solution {
 			if ($max > 0) {
 				// 如果前面子组合大于0，累加
 				$max += $nums[$i];
-				var_dump($max);
+
 			} else {
 				// 小于0则抛弃前面的结果，从当前继续
 				$max = $nums[$i];

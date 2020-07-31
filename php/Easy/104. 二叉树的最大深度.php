@@ -50,7 +50,7 @@ class Solution {
 
 		$left = $this->maxDepth($root->left);
 		$right = $this->maxDepth($root->right);
-var_dump($left,$right);
+
 		return max($left, $right) + 1;
 	}
 }

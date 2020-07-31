@@ -9,7 +9,7 @@ class TreeNode
 function reverseTree($root)
 {
 	if ($root === null) {
-		return $root;
+		return null;
 	}
 
 	$left = $root->left;
