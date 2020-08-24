@@ -23,10 +23,6 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
-class ListNode {
-
-}
-
 class Solution {
 
 	/**
