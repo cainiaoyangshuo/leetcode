@@ -133,12 +133,32 @@ class Creator
 		return $res;
 	}
 
-	public static function inOrder1($root)
+	/**
+	 * 中序遍历 迭代
+	 * @param $root
+	 *
+	 * @return array
+	 */
+	public static function inorderTraversal($root)
 	{
 		if (empty($root)) {
-			return $root;
+			return [];
 		}
 
+		$res = [];
+		$stack = [];
+		while (!empty($root) || !empty($stack)) {
+			if (!empty($root)) {
+				array_push($stack, $root);
+				$root = $root->left;
+			} else {
+				$root = array_pop($stack);
+				$res[] = $root->val;
+				$root = $root->right;
+			}
+		}
+
+		return $res;
 
 	}
 
