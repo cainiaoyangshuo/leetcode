@@ -47,6 +47,7 @@
 
 class Solution {
 	/**
+	 * 标签： 快慢指针
 	 * @param ListNode $head
 	 * @return Boolean
 	 */

@@ -9,7 +9,7 @@ class Solution {
 	 * @param TreeNode $root
 	 * @return Integer[]
 	 */
-	function inorderTraversal($root) 
+	function inorderTraversal($root)
 	{
 		if (empty($root)) {
 			return [];
