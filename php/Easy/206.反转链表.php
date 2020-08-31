@@ -40,7 +40,15 @@ class Solution {
 	 * @return ListNode
 	 */
 	function reverseList1($head) {
+		if (empty($head) || empty($head->next)) {
+			return $head;
+		}
 
+		$p = $this->reverseList1($head->next);
+		$head->next->next = $head;
+		// 下一个要指向null，否则会循环
+		$head->next = null;
+		return $p;
 	}
 }
 
