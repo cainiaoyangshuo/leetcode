@@ -20,7 +20,7 @@
  */
 
 
-class ReverseInt
+class Solution
 {
 
     /**
@@ -67,7 +67,7 @@ class ReverseInt
 }
 
 
-$obj = new ReverseInt();
+$obj = new Solution();
 $date = $obj->reverse(19);
 var_dump(crc32($date));
 
