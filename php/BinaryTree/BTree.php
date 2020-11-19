@@ -5,167 +5,158 @@
 
 class BTree
 {
-	public $val = null;
-	public $left = null;
-	public $right = null;
-	function __construct($value) { $this->val = $value; }
-
+    public $val = null;
+    public $left = null;
+    public $right = null;
+    function __construct($value)
+    {
+        $this->val = $value;
+    }
 }
 
 class Creator
 {
-	public $arr = [];
+    public $arr = [];
 
-	public static function preOrder($root)
-	{
-		if (!empty($root)) {
-			$func = __FUNCTION__;
-			echo $root->val. '';
-			$func($root->left);
-			$func($root->right);
-		}
-	}
+    public static function preOrder($root)
+    {
+        if (!empty($root)) {
+            $func = __FUNCTION__;
+            echo $root->val . '';
+            $func($root->left);
+            $func($root->right);
+        }
+    }
 
+    public function inorder($root)
+    {
+        if (!empty($root)) {
+            $func = __FUNCTION__;
+            $func($root->left);
+            echo $root->val . '';
+            $func($root->right);
+        }
+    }
 
-	public function inorder($root)
-	{
-		if (!empty($root)) {
-			$func = __FUNCTION__;
-			$func($root->left);
-			echo $root->val. '';
-			$func($root->right);
-		}
-	}
+    public static function postOrder($root)
+    {
+        if (!empty($root)) {
+            $func = __FUNCTION__;
 
-	public static function postOrder($root)
-	{
-		if (!empty($root)) {
-			$func = __FUNCTION__;
+            $func($root->left);
+            $func($root->right);
+            echo $root->val . '';
+        }
+    }
 
-			$func($root->left);
-			$func($root->right);
-			echo $root->val. '';
-		}
-	}
+    public static function levelOrder($root)
+    {
+        self::order($root, 0);
+        return self::$arr;
+    }
 
-	public static function levelOrder($root)
-	{
-		self::order($root, 0);
-		return self::$arr;
-	}
+    public function order($root, $level)
+    {
+        if (empty($root)) {
+            return $root;
+        }
 
-	public function order($root, $level)
-	{
-		if (empty($root)) {
-			return $root;
-		}
+        $this->arr[$level][] = $root->val;
+        $level++;
 
-		$this->arr[$level][] = $root->val;
-		$level++;
+        if (!empty($root->left)) {
+            $this->order($root->left, $level);
+        }
 
-		if (!empty($root->left)) {
-			$this->order($root->left, $level);
-		}
+        if (!empty($root->right)) {
+            $this->order($root->right, $level);
+        }
+    }
 
-		if (!empty($root->right)) {
-			$this->order($root->right, $level);
-		}
-	}
+    /**
+     * 层序遍历非递归
+     * @param $root
+     */
+    public static function levelOrder1($root)
+    {
+        if (empty($root)) {
+            return [];
+        }
 
-	/**
-	 * 层序遍历非递归
-	 * @param $root
-	 */
-	public static function levelOrder1($root)
-	{
-		if (empty($root)) {
-			return [];
-		}
+        $res = [];
+        $queue = [];
 
-		$res = [];
-		$queue = [];
+        array_push($queue, $root);
+        $level = 0;
+        while ($count = count($queue)) {
+            for ($i = 0; $i < $count; $i++) {
+                $node = array_shift($queue);
+                $res[$level][] = $node->val;
 
-		array_push($queue, $root);
-		$level = 0;
-		while ($count = count($queue)) {
-			for ($i=0; $i<$count; $i++) {
+                if ($node->left) {
+                    $queue[] = $node->left;
+                }
 
-				$node = array_shift($queue);
-				$res[$level][] = $node->val;
+                if ($node->right) {
+                    $queue[] = $node->right;
+                }
+            }
+            $level++;
+        }
 
-				if ($node->left) {
-					$queue[] = $node->left;
-				}
+        return $res;
+    }
 
-				if ($node->right) {
-					$queue[] = $node->right;
-				}
-			}
-			$level++;
-		}
+    /** 先序遍历非递归 */
+    public static function preOrder1($root)
+    {
+        if (empty($root)) {
+            return [];
+        }
 
-		return $res;
-	}
+        $res = [];
+        $stack = [];
+        array_push($stack, $root);
 
-	/** 先序遍历非递归 */
-	public static function preOrder1($root)
-	{
-		if (empty($root)) {
-			return [];
-		}
+        while (count($stack)) {
+            $node = array_pop($stack);
+            $res[] = $node->val;
+            if (!empty($node->right)) {
+                array_push($stack, $node->right);
+            }
+            if (!empty($node->left)) {
+                array_push($stack, $node->left);
+            }
+        }
 
-		$res = [];
-		$stack = [];
-		array_push($stack, $root);
+        return $res;
+    }
 
-		while (count($stack)) {
+    /**
+     * 中序遍历 迭代
+     * @param $root
+     *
+     * @return array
+     */
+    public static function inorderTraversal($root)
+    {
+        if (empty($root)) {
+            return [];
+        }
 
-			$node = array_pop($stack);
-			$res[] = $node->val;
-			if (!empty($node->right)) {
-				array_push($stack, $node->right);
-			}
-			if (!empty($node->left)) {
-				array_push($stack, $node->left);
-			}
-		}
+        $res = [];
+        $stack = [];
+        while (!empty($root) || !empty($stack)) {
+            if (!empty($root)) {
+                array_push($stack, $root);
+                $root = $root->left;
+            } else {
+                $root = array_pop($stack);
+                $res[] = $root->val;
+                $root = $root->right;
+            }
+        }
 
-		return $res;
-	}
-
-	/**
-	 * 中序遍历 迭代
-	 * @param $root
-	 *
-	 * @return array
-	 */
-	public static function inorderTraversal($root)
-	{
-		if (empty($root)) {
-			return [];
-		}
-
-		$res = [];
-		$stack = [];
-		while (!empty($root) || !empty($stack)) {
-			if (!empty($root)) {
-				array_push($stack, $root);
-				$root = $root->left;
-			} else {
-				$root = array_pop($stack);
-				$res[] = $root->val;
-				$root = $root->right;
-			}
-		}
-
-		return $res;
-
-	}
-
-
-
-
-
-
-
+        return $res;
+    }
 }

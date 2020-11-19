@@ -45,30 +45,31 @@
  * }
  */
 
-class Solution {
-	/**
-	 * 标签： 快慢指针
-	 * @param ListNode $head
-	 * @return Boolean
-	 */
-	function hasCycle($head) {
+class Solution
+{
+    /**
+     * 标签： 快慢指针
+     * @param ListNode $head
+     * @return Boolean
+     */
+    function hasCycle($head)
+    {
+        if (empty($head) || empty($head->next)) {
+            return false;
+        }
 
-		if (empty($head) || empty($head->next)) {
-			return false;
-		}
+        $fast = $head->next;
+        $slow = $head;
 
-		$fast = $head->next;
-		$slow = $head;
+        while ($fast != $slow) {
+            if (empty($fast) || empty($fast->next)) {
+                return false;
+            }
 
-		while ($fast != $slow) {
-			if (empty($fast) || empty($fast->next)) {
-				return false;
-			}
+            $slow = $slow->next;
+            $fast = $fast->next->next;
+        }
 
-			$slow = $slow->next;
-			$fast = $fast->next->next;
-		}
-
-		return true;
-	}
+        return true;
+    }
 }

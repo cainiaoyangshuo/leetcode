@@ -3,7 +3,6 @@
  * author: yangshuo5@ucfgroup.com
  */
 
-
 /**
  * $arr = [1,3,5,7]; $target = 4;
  * return index1 = 1, index2 = 2;
@@ -28,9 +27,8 @@ class TwoSum
                 }
             }
         }
-        return $sum ;
+        return $sum;
     }
-
 
     /**
      * 哈希 存target-当前值的key-value 如果在哈希表中找到则说明有 时间复杂度O(n) 空间复杂度O(n)
@@ -44,14 +42,13 @@ class TwoSum
         $m = [];
         $result = [];
         foreach ($nums as $k => $v) {
-
             if (array_key_exists($v, $m)) {
                 $result[] = $m[$v];
-                $result[] = $k+1;
+                $result[] = $k + 1;
 
                 return $result;
             }
-            $m[$target - $v] = $k +1 ;
+            $m[$target - $v] = $k + 1;
             //var_dump($m);
         }
         //var_dump($m);
@@ -66,7 +63,6 @@ class TwoSum
         }
         $result = [];
         foreach ($nums as $key => $value) {
-
             if (array_key_exists($value, $map)) {
                 array_push($result, $map[$value]);
                 array_push($result, $key);
@@ -81,7 +77,6 @@ class TwoSum
         return $result;
     }
 
-
     function twoSum2($arr, $target)
     {
         if (count($arr) < 2) {
@@ -91,7 +86,6 @@ class TwoSum
         $map = $result = [];
 
         foreach ($arr as $item => $value) {
-
             if (array_key_exists($value, $map)) {
                 array_push($result, $map[$value]);
                 array_push($result, $item);
@@ -113,7 +107,6 @@ class TwoSum
         $map = $res = [];
 
         foreach ($arr as $key => $value) {
-
             if (array_key_exists($value, $map)) {
                 array_push($res, $map[$value]);
                 array_push($res, $key);
@@ -135,7 +128,7 @@ class TwoSum
 }
 
 $sulo = new TwoSum();
-$arr = [1,3,4,2,8];
+$arr = [1, 3, 4, 2, 8];
 $target = 7;
 print_r($sulo->two_sum($arr, $target));
 //var_dump($sulo->twoSum($arr,$target));

@@ -16,7 +16,7 @@
 	左子树和右子树都是二叉搜索树
 	例如：
 	给定 BST [1,null,2,2],
-	
+
 	1
      \
      2
@@ -37,49 +37,50 @@
  *     function __construct($value) { $this->val = $value; }
  * }
  */
-class Solution {
+class Solution
+{
+    /**
+     * @param TreeNode $root
+     * @return Integer[]
+     */
+    function findMode($root)
+    {
+        if (empty($root)) {
+            return [];
+        }
 
-	/**
-	 * @param TreeNode $root
-	 * @return Integer[]
-	 */
-	function findMode($root) {
-		if (empty($root)) {
-			return [];
-		}
+        $stack = [];
+        $count = 0;
+        $maxCount = 1;
+        $base = null;
+        $res = [];
 
-		$stack = [];
-		$count = 0;
-		$maxCount = 1;
-		$base = null;
-		$res = [];
+        while (!empty($stack) || !empty($root)) {
+            if (!empty($root)) {
+                $stack[] = $root;
+                $root = $root->left;
+            } else {
+                $root = array_pop($stack);
+                $val = $root->val;
+                if ($val == $base) {
+                    ++$count;
+                } else {
+                    $count = 1;
+                    $base = $val;
+                }
+                if ($count == $maxCount) {
+                    $res[] = $val;
+                }
 
-		while (!empty($stack) || !empty($root)) {
-			if (!empty($root)) {
-				$stack[] = $root;
-				$root = $root->left;
-			} else {
-				$root = array_pop($stack);
-				$val = $root->val;
-				if ($val == $base) {
-					++$count;
-				} else {
-					$count = 1;
-					$base = $val;
-				}
-				if ($count == $maxCount) {
-					$res[] = $val;
-				}
+                if ($count > $maxCount) {
+                    $maxCount = $count;
+                    $res = null;
+                    $res[] = $val;
+                }
+                $root = $root->right;
+            }
+        }
 
-				if ($count > $maxCount) {
-					$maxCount = $count;
-					$res = null;
-					$res[] = $val;
-				}
-				$root = $root->right;
-			}
-		}
-
-		return $res;
-	}
+        return $res;
+    }
 }

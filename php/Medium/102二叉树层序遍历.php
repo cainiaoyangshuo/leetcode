@@ -8,41 +8,39 @@
  *     function __construct($value) { $this->val = $value; }
  * }
  */
-class Solution {
+class Solution
+{
+    /**
+     * @param TreeNode $root
+     * @return Integer[][]
+     */
+    function levelOrder($root)
+    {
+        if (empty($root)) {
+            return [];
+        }
 
-	/**
-	 * @param TreeNode $root
-	 * @return Integer[][]
-	 */
-	function levelOrder($root) {
-		if (empty($root)) {
-			return [];
-		}
+        $res = [];
+        $queue = [];
 
-		$res = [];
-		$queue = [];
+        array_push($queue, $root);
+        $level = 0;
+        while ($count = count($queue)) {
+            for ($i = 0; $i < $count; $i++) {
+                $node = array_shift($queue);
+                $res[$level][] = $node->val;
 
-		array_push($queue, $root);
-		$level = 0;
-		while ($count = count($queue)) {
-			for ($i=0; $i<$count; $i++) {
+                if ($node->left) {
+                    $queue[] = $node->left;
+                }
 
-				$node = array_shift($queue);
-				$res[$level][] = $node->val;
+                if ($node->right) {
+                    $queue[] = $node->right;
+                }
+            }
+            $level++;
+        }
 
-				if ($node->left) {
-					$queue[] = $node->left;
-				}
-
-				if ($node->right) {
-					$queue[] = $node->right;
-				}
-			}
-			$level++;
-		}
-
-		return $res;
-	}
-
-
+        return $res;
+    }
 }

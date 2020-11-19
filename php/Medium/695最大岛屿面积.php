@@ -3,7 +3,6 @@
  * @date 2020/6/21
  */
 
-class Solution {
-
-
+class Solution
+{
 }

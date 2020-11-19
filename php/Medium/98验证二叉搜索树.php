@@ -38,41 +38,50 @@
  *     function __construct($value) { $this->val = $value; }
  * }
  */
-class TreeNode {
-     public $val = null;
-     public $left = null;
-     public $right = null;
-     function __construct($value) { $this->val = $value; }
+class TreeNode
+{
+    public $val = null;
+    public $left = null;
+    public $right = null;
+    function __construct($value)
+    {
+        $this->val = $value;
+    }
 }
 
-class Solution98 {
+class Solution98
+{
+    protected $pre = PHP_INT_MIN;
 
-	protected $pre = PHP_INT_MIN;
+    /**
+     * 方法一：中序遍历
+     * 中序遍历是二叉树的一种遍历方式，它先遍历左子树，再遍历根节点，最后遍历右子树。
+     * 而我们二叉搜索树保证了左子树的节点的值均小于根节点的值，根节点的值均小于右子树的值，
+     * 因此中序遍历以后得到的序列一定是升序序列。
+     * @param TreeNode $root
+     * @return Boolean
+     */
+    function isValidBST(TreeNode $root)
+    {
+        $a = PHP_INT_MIN;
+        return $this->inOrder($root, $a);
+    }
 
-	/**
-	 * 方法一：中序遍历
-	 * 中序遍历是二叉树的一种遍历方式，它先遍历左子树，再遍历根节点，最后遍历右子树。
-	 * 而我们二叉搜索树保证了左子树的节点的值均小于根节点的值，根节点的值均小于右子树的值，
-	 * 因此中序遍历以后得到的序列一定是升序序列。
-	 * @param TreeNode $root
-	 * @return Boolean
-	 */
-	function isValidBST(TreeNode $root) {
-		$a = PHP_INT_MIN;
-		return $this->inOrder($root, $a);
-	}
-
-	function inOrder($root, &$a){
-		if($root != null){
-			if(!$this->inOrder($root->left, $a)) return false;
-			if($a < $root->val){
-				$a = $root->val;
-			}else{
-				return false;
-			}
-			if(!$this->inOrder($root->right, $a)) return false;
-		}
-		return true;
-	}
-
+    function inOrder($root, &$a)
+    {
+        if ($root != null) {
+            if (!$this->inOrder($root->left, $a)) {
+                return false;
+            }
+            if ($a < $root->val) {
+                $a = $root->val;
+            } else {
+                return false;
+            }
+            if (!$this->inOrder($root->right, $a)) {
+                return false;
+            }
+        }
+        return true;
+    }
 }

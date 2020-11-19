@@ -3,8 +3,6 @@
  * @date 2020/5/29
  */
 
-
-
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -15,17 +13,15 @@
  * }
  */
 
-
 function preorder($root)
 {
-	if (!empty($root)) {
-		$func = __FUNCTION__;
-		echo $root->val. '';
-		$func($root->left);
-		$func($root->right);
-	}
+    if (!empty($root)) {
+        $func = __FUNCTION__;
+        echo $root->val . '';
+        $func($root->left);
+        $func($root->right);
+    }
 }
-
 
 /**
 获取url扩展名

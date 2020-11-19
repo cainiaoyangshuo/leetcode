@@ -20,43 +20,43 @@
  * @date 2020/7/8
  */
 
-class Solution {
+class Solution
+{
+    /**
+     * @param String[] $s
+     * @return NULL
+     */
+    private function reverseString(&$s)
+    {
+        if (empty($s)) {
+            return [];
+        }
 
-	/**
-	 * @param String[] $s
-	 * @return NULL
-	 */
-	private function reverseString(&$s) {
+        $len = count($s);
+        if ($len < 2) {
+            return $s;
+        }
 
-		if (empty($s)) {
-			return [];
-		}
+        $left = 0;
+        $right = $len - 1;
 
-		$len = count($s);
-		if ($len < 2) {
-			return $s;
-		}
+        while ($left < $right) {
+            $s[$left] = $s[$left] ^ $s[$right];
+            $s[$right] = $s[$left] ^ $s[$right];
+            $s[$left] = $s[$left] ^ $s[$right];
+            $left++;
+            $right--;
+        }
 
-		$left = 0;
-		$right = $len - 1;
+        return $s;
+    }
 
-		while ($left < $right) {
-			$s[$left] = $s[$left] ^ $s[$right];
-			$s[$right] = $s[$left] ^ $s[$right];
-			$s[$left] = $s[$left] ^ $s[$right];
-			$left++;
-			$right--;
-		}
-
-		return $s;
-	}
-
-	public function res($s)
-	{
-		return $this->reverseString($s);
-	}
+    public function res($s)
+    {
+        return $this->reverseString($s);
+    }
 }
 
 $obj = new Solution();
-$s = ["h","e","l","l","o"];
+$s = ["h", "e", "l", "l", "o"];
 print_r($obj->res($s));

@@ -35,63 +35,67 @@
  * 如果 key 存在，则与 get 操作类似，先通过哈希表定位，再将对应的节点的值更新为 value，并将该节点移到双向链表的头部。
 
  */
-class LRUCache {
-	/**
-	 * @param Integer $capacity
-	 */
-	function __construct($capacity) {
-		$this->used = [];   //k-v队列
-		$this->hash = [];
-		$this->capacity = $capacity;
-	}
+class LRUCache
+{
+    /**
+     * @param Integer $capacity
+     */
+    function __construct($capacity)
+    {
+        $this->used = []; //k-v队列
+        $this->hash = [];
+        $this->capacity = $capacity;
+    }
 
-	public function keys()
-	{
-		return $this->used;
-	}
+    public function keys()
+    {
+        return $this->used;
+    }
 
-	public function hash()
-	{
-		return $this->hash;
-	}
+    public function hash()
+    {
+        return $this->hash;
+    }
 
-	/**
-	 * @param Integer $key
-	 * @return Integer
-	 */
-	function get($key) {
-		if (isset($this->hash[$key])) {
-			$index = array_search($key, $this->used);
-			unset($this->used[$index]);
-			$this->used[] = $key;
-			print_r($this->hash[$key]);
-			return $this->hash[$key];
-		}
+    /**
+     * @param Integer $key
+     * @return Integer
+     */
+    function get($key)
+    {
+        if (isset($this->hash[$key])) {
+            $index = array_search($key, $this->used);
+            unset($this->used[$index]);
+            $this->used[] = $key;
+            print_r($this->hash[$key]);
+            return $this->hash[$key];
+        }
 
-		return -1;
-	}
+        return -1;
+    }
 
-	/**
-	 * @param Integer $key
-	 * @param Integer $value
-	 * @return NULL
-	 */
-	function put($key, $value) {
-		if (isset($this->hash[$key])) {
-			$index = array_search($key, $this->used);
-			unset($this->used[$index]);
-			$this->used[] = $key;
-			$this->hash[$key] = $value;
-		} else {
-			if (count($this->used) == $this->capacity) {
-				$headKey = array_shift($this->used);
-				unset($this->hash[$headKey]);
-			}
-			$this->hash[$key] = $value;
-			$this->used[] = $key;
-		}
-		return 'ok';
-	}
+    /**
+     * @param Integer $key
+     * @param Integer $value
+     * @return NULL
+     */
+    function put($key, $value)
+    {
+        if (isset($this->hash[$key])) {
+            $index = array_search($key, $this->used);
+            unset($this->used[$index]);
+            $this->used[] = $key;
+            $this->hash[$key] = $value;
+        } else {
+            if (count($this->used) == $this->capacity) {
+                $headKey = array_shift($this->used);
+                unset($this->hash[$headKey]);
+            }
+            $this->hash[$key] = $value;
+            $this->used[] = $key;
+        }
+        return 'ok';
+    }
 }
 
 /**
@@ -103,14 +107,14 @@ class LRUCache {
 
 $obj = new LRUCache(2);
 
-$obj->put(1,1);
-$obj->put(2,2);
+$obj->put(1, 1);
+$obj->put(2, 2);
 $obj->get(1);
-$obj->put(3,3);
+$obj->put(3, 3);
 
 //var_dump($obj->keys(), $obj->hash());exit;
 $obj->get(2);
-$obj->put(4,4);
+$obj->put(4, 4);
 $obj->get(1);
 $obj->get(3);
 $obj->get(4);

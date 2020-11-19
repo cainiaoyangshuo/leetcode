@@ -11,14 +11,14 @@
  * @date 2020/6/23
  */
 
-class Solution {
-
-	/**
-	 * @param ListNode $head
-	 * @param Integer $k
-	 * @return ListNode
-	 */
-	function reverseKGroup($head, $k) {
-
-	}
+class Solution
+{
+    /**
+     * @param ListNode $head
+     * @param Integer $k
+     * @return ListNode
+     */
+    function reverseKGroup($head, $k)
+    {
+    }
 }

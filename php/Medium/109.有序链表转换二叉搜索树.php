@@ -44,9 +44,9 @@
  *     }
  * }
  */
-class Solution {
-
-	/**
+class Solution
+{
+    /**
 	 * 标签：快慢指针
 	 * 只需要找到他的中间结点，让他成为树的根节点，中间结点前面的就是根节点左子树的所有节点，
 	 * 中间节点后面的就是根节点右子树的所有节点，然后使用递归的方式再分别对左右子树进行相同的操作……
@@ -54,34 +54,35 @@ class Solution {
 	 * @param ListNode $head
 	 * @return TreeNode
 	 */
-	function sortedListToBST($head) {
-		// 边界条件
-		if (empty($head)) {
-			return null;
-		}
-		if (empty($head->next)) {
-			return new TreeNode($head->val);
-		}
+    function sortedListToBST($head)
+    {
+        // 边界条件
+        if (empty($head)) {
+            return null;
+        }
+        if (empty($head->next)) {
+            return new TreeNode($head->val);
+        }
 
-		$slow = $head;
-		$fast = $head;
-		$prev = null;
+        $slow = $head;
+        $fast = $head;
+        $prev = null;
 
-		while ($fast != null && !empty($fast->next)) {
-			$prev = $slow;
-			$slow = $slow->next;
-			$fast = $fast->next->next;
-		}
-		
-		// 链表断开为两部分，前半是node左子树，后半是右子树
-		$prev->next = null;
-		// 当前节点
-		$node = new TreeNode($slow->val);
-		// head到prev，是左子树的节点
-		$node->left = $this->sortedListToBST($head);
-		// slow->next到链表末尾，是右子树的节点
-		$node->right = $this->sortedListToBST($slow->next);
+        while ($fast != null && !empty($fast->next)) {
+            $prev = $slow;
+            $slow = $slow->next;
+            $fast = $fast->next->next;
+        }
 
-		return $node;
-	}
+        // 链表断开为两部分，前半是node左子树，后半是右子树
+        $prev->next = null;
+        // 当前节点
+        $node = new TreeNode($slow->val);
+        // head到prev，是左子树的节点
+        $node->left = $this->sortedListToBST($head);
+        // slow->next到链表末尾，是右子树的节点
+        $node->right = $this->sortedListToBST($slow->next);
+
+        return $node;
+    }
 }

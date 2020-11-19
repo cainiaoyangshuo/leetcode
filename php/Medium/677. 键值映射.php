@@ -19,30 +19,31 @@
  * @date 2020/8/23
  */
 
-class MapSum {
-	/**
-	 * Initialize your data structure here.
-	 */
-	function __construct() {
+class MapSum
+{
+    /**
+     * Initialize your data structure here.
+     */
+    function __construct()
+    {
+    }
 
-	}
+    /**
+     * @param String $key
+     * @param Integer $val
+     * @return NULL
+     */
+    function insert($key, $val)
+    {
+    }
 
-	/**
-	 * @param String $key
-	 * @param Integer $val
-	 * @return NULL
-	 */
-	function insert($key, $val) {
-
-	}
-
-	/**
-	 * @param String $prefix
-	 * @return Integer
-	 */
-	function sum($prefix) {
-
-	}
+    /**
+     * @param String $prefix
+     * @return Integer
+     */
+    function sum($prefix)
+    {
+    }
 }
 
 /**

@@ -23,47 +23,41 @@
  * @date 2020/7/6
  */
 
-class Solution {
+class Solution
+{
+    /**
+     *
+     * @param Integer[][] $obstacleGrid
+     * @return Integer
+     */
+    function uniquePathsWithObstacles($obstacleGrid)
+    {
+        $n = count($obstacleGrid); // 列
+        $m = count($obstacleGrid[0]); //行
 
-	/**
-	 *
-	 * @param Integer[][] $obstacleGrid
-	 * @return Integer
-	 */
-	function uniquePathsWithObstacles($obstacleGrid) {
+        $f = [];
 
-		$n = count($obstacleGrid);  // 列
-		$m = count($obstacleGrid[0]);   //行
+        $f[0] = $obstacleGrid[0][0] == 0 ? 1 : 0; // 判断开始是不是障碍
 
+        for ($i = 0; $i < $n; $i++) {
+            for ($j = 0; $j < $m; $j++) {
+                if ($obstacleGrid[$i][$j] == 1) {
+                    $f[$j] = 0;
+                    continue;
+                }
 
-		$f = [];
+                if ($j - 1 >= 0 && $obstacleGrid[$i][$j - 1] == 0) {
+                    $f[$j] += $f[$j - 1];
+                }
+            }
+        }
 
-		$f[0] = $obstacleGrid[0][0] == 0 ? 1 : 0;   // 判断开始是不是障碍
-
-		for ($i = 0; $i < $n; $i++) {
-			for ($j = 0; $j < $m; $j++) {
-				if ($obstacleGrid[$i][$j] == 1) {
-					$f[$j] = 0;
-					continue;
-				}
-
-				if ($j - 1 >= 0 && $obstacleGrid[$i][$j-1] == 0) {
-					$f[$j] += $f[$j-1];
-				}
-			}
-		}
-
-		return $f[$m-1];
-	}
-
+        return $f[$m - 1];
+    }
 }
 
 $obj = new Solution();
 
-$obs = [
-	[0,0,0],
-	[0,0,1],
-	[0,0,0],
-	];
+$obs = [[0, 0, 0], [0, 0, 1], [0, 0, 0]];
 $res = $obj->uniquePathsWithObstacles($obs);
 print_r($res);

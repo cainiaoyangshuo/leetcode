@@ -19,10 +19,8 @@
 假设我们的环境只能存储得下 32 位的有符号整数，则其数值范围为 [−231,  231 − 1]。请根据这个假设，如果反转后整数溢出那么就返回 0。
  */
 
-
 class Solution
 {
-
     /**
      * @param Integer $x
      * @return Integer
@@ -41,7 +39,7 @@ class Solution
                 $res = $res * 10 + $remainder;
             }
             $result = -($res * 10 + $x);
-            if ($result <= -pow(2,31)-1) {
+            if ($result <= -pow(2, 31) - 1) {
                 return 0;
             }
         } else {
@@ -56,16 +54,14 @@ class Solution
                 //var_dump('去掉最后一位后的x:  ' . $x);
             }
             $result = $res * 10 + $x;
-            if ($result >= pow(2,31)-1) {
+            if ($result >= pow(2, 31) - 1) {
                 return 0;
             }
         }
 
         return $result;
     }
-
 }
-
 
 $obj = new Solution();
 $date = $obj->reverse(19);

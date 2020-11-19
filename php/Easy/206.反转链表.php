@@ -9,71 +9,74 @@
  */
 require_once '/Users/yangshuo/git/leetcode/php/List/ListNode.php';
 require_once '/Users/yangshuo/git/leetcode/php/List/List.php';
-class Solution {
+class Solution
+{
+    /**
+     * 迭代
+     * 在遍历列表时，将当前节点的 next 指针改为指向前一个元素。
+     * 由于节点没有引用其上一个节点，因此必须事先存储其前一个元素。
+     * 在更改引用之前，还需要另一个指针来存储下一个节点。不要忘记在最后返回新的头引用！
+     * @param ListNode $head
+     * @return ListNode
+     */
+    function reverseList($head)
+    {
+        $prev = null;
+        $cur = $head;
 
-	/**
-	 * 迭代
-	 * 在遍历列表时，将当前节点的 next 指针改为指向前一个元素。
-	 * 由于节点没有引用其上一个节点，因此必须事先存储其前一个元素。
-	 * 在更改引用之前，还需要另一个指针来存储下一个节点。不要忘记在最后返回新的头引用！
-	 * @param ListNode $head
-	 * @return ListNode
-	 */
-	function reverseList($head) {
-		$prev = null;
-		$cur = $head;
+        while (!empty($cur)) {
+            $temp = $cur->next;
+            $cur->next = $prev;
+            $prev = $cur;
+            $cur = $temp;
+        }
 
-		while (!empty($cur)) {
-			$temp = $cur->next;
-			$cur->next = $prev;
-			$prev = $cur;
-			$cur = $temp;
-		}
+        return $prev;
+    }
 
-		return $prev;
-	}
+    /**
+     * 递归
+     *
+     * @param ListNode $head
+     * @return ListNode
+     */
+    function reverseList1($head)
+    {
+        if (empty($head) || empty($head->next)) {
+            return $head;
+        }
 
-	/**
-	 * 递归
-	 *
-	 * @param ListNode $head
-	 * @return ListNode
-	 */
-	function reverseList1($head) {
-		if (empty($head) || empty($head->next)) {
-			return $head;
-		}
-
-		$p = $this->reverseList1($head->next);
-		$head->next->next = $head;
-		// 下一个要指向null，否则会循环
-		$head->next = null;
-		return $p;
-	}
+        $p = $this->reverseList1($head->next);
+        $head->next->next = $head;
+        // 下一个要指向null，否则会循环
+        $head->next = null;
+        return $p;
+    }
 }
 
-function test() {
-	$arr = [1,2,3,4,5];
+function test()
+{
+    $arr = [1, 2, 3, 4, 5];
 
-	// 创建链表
-	$list = new LinkedList();
-	foreach ($arr as $v) {
-		$list->addNodeFromHead($v);
-	}
+    // 创建链表
+    $list = new LinkedList();
+    foreach ($arr as $v) {
+        $list->addNodeFromHead($v);
+    }
 
-	//遍历链表
-//while (!empty($list->head)) {
-//	print_r($list->head->val);
-//	$list->head = $list->head->next;
-//}
+    //遍历链表
+    //while (!empty($list->head)) {
+    //	print_r($list->head->val);
+    //	$list->head = $list->head->next;
+    //}
 
-	$res = new Solution();
-	$s = $res->reverseList($list->head);
+    $res = new Solution();
+    $s = $res->reverseList($list->head);
 
-	while (!empty($s)) {
-		print_r($s->val);
-		$s = $s->next;
-	}
+    while (!empty($s)) {
+        print_r($s->val);
+        $s = $s->next;
+    }
 }
 
 test();

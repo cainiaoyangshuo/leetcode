@@ -28,34 +28,35 @@
  *     function __construct($value) { $this->val = $value; }
  * }
  */
-class Solution {
+class Solution
+{
+    public function __call($name, $arguments)
+    {
+        // TODO: Implement __call() method.
+        $ref = new ReflectionClass(__CLASS__);
+        $funcs = $ref->getMethods();
+        $func = $funcs[count($funcs) - 1]->name;
+        return $this->$func($arguments);
+    }
 
-	public function __call( $name, $arguments ) {
-		// TODO: Implement __call() method.
-		$ref = new ReflectionClass(__CLASS__);
-		$funcs = $ref->getMethods();
-		$func = $funcs[count($funcs)-1]->name;
-		return $this->$func($arguments);
-	}
+    /**
+     * @param TreeNode $root
+     * @return Integer
+     */
+    function maxDepth($root)
+    {
+        if (empty($root)) {
+            return 0;
+        }
 
-	/**
-	 * @param TreeNode $root
-	 * @return Integer
-	 */
-	function maxDepth($root) {
-		if (empty($root)) {
-			return 0;
-		}
+        $left = $this->maxDepth($root->left);
+        $right = $this->maxDepth($root->right);
 
-
-		$left = $this->maxDepth($root->left);
-		$right = $this->maxDepth($root->right);
-
-		return max($left, $right) + 1;
-	}
+        return max($left, $right) + 1;
+    }
 }
 
 $obj = new Solution();
-$n = [3,9,20,null,null,15,7];
+$n = [3, 9, 20, null, null, 15, 7];
 $res = $obj->test($n);
 var_dump($res);

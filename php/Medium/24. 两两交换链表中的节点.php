@@ -12,9 +12,9 @@
  * @date 2020/7/8
  */
 
-class Solution {
-
-	/**
+class Solution
+{
+    /**
 	 * 方法一：递归
 		这个题目要求我们从第一个节点开始两两交换链表中的节点，且要真正的交换节点。
 
@@ -28,45 +28,46 @@ class Solution {
 	 * @param ListNode $head
 	 * @return ListNode
 	 */
-	function swapPairs($head) {
-		if (empty($head) || empty($head->next)) {
-			return $head;
-		}
+    function swapPairs($head)
+    {
+        if (empty($head) || empty($head->next)) {
+            return $head;
+        }
 
-		$second = $head->next;
-		$head->next = $this->swapPairs($second->next);
-		$second->next = $head;
+        $second = $head->next;
+        $head->next = $this->swapPairs($second->next);
+        $second->next = $head;
 
-		return $second;
-	}
+        return $second;
+    }
 
-	/**
-	 * 二：迭代
-	 * @param $head
-	 */
-	function swapPairs1($head) {
-		if (empty($head) || empty($head->next)) {
-			return $head;
-		}
+    /**
+     * 二：迭代
+     * @param $head
+     */
+    function swapPairs1($head)
+    {
+        if (empty($head) || empty($head->next)) {
+            return $head;
+        }
 
-		// 虚拟头结点
-		$dummyHead = new ListNode(-1);
+        // 虚拟头结点
+        $dummyHead = new ListNode(-1);
 
-		$dummyHead->next = $head;
-		$cur = $dummyHead;
+        $dummyHead->next = $head;
+        $cur = $dummyHead;
 
-		while ($cur->next !== null && $cur->next->next !== null) {
-			$a = $cur->next;
-			$b = $cur->next->next;
+        while ($cur->next !== null && $cur->next->next !== null) {
+            $a = $cur->next;
+            $b = $cur->next->next;
 
-			$cur->next = $b;
-			$a->next = $b->next;
-			$b->next = $a;
+            $cur->next = $b;
+            $a->next = $b->next;
+            $b->next = $a;
 
-			$cur = $cur->next->next;
-		}
+            $cur = $cur->next->next;
+        }
 
-		return $dummyHead->next;
-	}
-
+        return $dummyHead->next;
+    }
 }

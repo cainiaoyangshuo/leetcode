@@ -34,38 +34,40 @@
  * @param Integer $n
  * @return Integer
  */
-function climbStairs($n) {
-	$sqrt5 = sqrt(5);
-	$fibn = pow((1+$sqrt5)/2, $n+1) - pow((1-$sqrt5)/2, $n+1);
-	return $fibn/$sqrt5;
+function climbStairs($n)
+{
+    $sqrt5 = sqrt(5);
+    $fibn = pow((1 + $sqrt5) / 2, $n + 1) - pow((1 - $sqrt5) / 2, $n + 1);
+    return $fibn / $sqrt5;
 }
 
 function climbStairs1($n)
 {
-	if ($n == 1 || $n == 2)
-		return 1;
+    if ($n == 1 || $n == 2) {
+        return 1;
+    }
 
-
-	echo $n . ' ';
-	return climbStairs1($n-1) + climbStairs1($n-2);
+    echo $n . ' ';
+    return climbStairs1($n - 1) + climbStairs1($n - 2);
 }
 
 function climbStairs2($n)
 {
-	if ($n < 0) {
-		return -1;
-	}
-	if ($n == 1 || $n == 2)
-		return 1;
+    if ($n < 0) {
+        return -1;
+    }
+    if ($n == 1 || $n == 2) {
+        return 1;
+    }
 
-	$f1 = 1;
-	$f2 = 1;
-	for ($i=3;$i<=$n;$i++) {
-		$f3 = $f1 + $f2;
-		$f1 = $f2;
-		$f2 = $f3;
-	}
-	return $f3;
+    $f1 = 1;
+    $f2 = 1;
+    for ($i = 3; $i <= $n; $i++) {
+        $f3 = $f1 + $f2;
+        $f1 = $f2;
+        $f2 = $f3;
+    }
+    return $f3;
 }
 
 var_dump(climbStairs2(6));

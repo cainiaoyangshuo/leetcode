@@ -37,37 +37,40 @@ T_4 = 1 + 1 + 2 = 4
  * @param Integer $n
  * @return Integer
  */
-function tribonacci($n) {
-	$tn = [ 0, 1, 1 ];
-	if ( $n < 2 ) {
-		return $tn[ $n ];
-	}
+function tribonacci($n)
+{
+    $tn = [0, 1, 1];
+    if ($n < 2) {
+        return $tn[$n];
+    }
 
-	for ( $i = 3; $i <= $n; ++ $i ) {
-		$sum   = array_sum( $tn );
-		$tn[0] = $tn[1];
-		$tn[1] = $tn[2];
-		$tn[2] = $sum;
-	}
+    for ($i = 3; $i <= $n; ++$i) {
+        $sum = array_sum($tn);
+        $tn[0] = $tn[1];
+        $tn[1] = $tn[2];
+        $tn[2] = $sum;
+    }
 
-	return $tn[2];
-
+    return $tn[2];
 }
 /**
  * 回溯
  * @param Integer $n
  * @return Integer
  */
-function tribonacci2($n) {
-	$fn = [0,1,1];
-	if ( $n < 2 ) {
-		return $fn[$n];
-	}
-	for ($i= 3; $i <= $n; $i++) {
-		$fn[$i] = $fn[$i- 1] + $fn[$i- 2] + $fn[$i - 3];
-	}
-	if($fn[$n] > (pow(2,31) -1)) return pow(2,31) -1;
-	return $fn[$n];
+function tribonacci2($n)
+{
+    $fn = [0, 1, 1];
+    if ($n < 2) {
+        return $fn[$n];
+    }
+    for ($i = 3; $i <= $n; $i++) {
+        $fn[$i] = $fn[$i - 1] + $fn[$i - 2] + $fn[$i - 3];
+    }
+    if ($fn[$n] > pow(2, 31) - 1) {
+        return pow(2, 31) - 1;
+    }
+    return $fn[$n];
 }
 
 var_dump(tribonacci2(1));

@@ -37,16 +37,18 @@
  * }
  */
 
-class Solution {
-	/**
-	 * 已知要删除单节点指针node，将node后一个结点的值赋给node，再将node与node下下一个结点链接。
-	 * @param ListNode $node
-	 * @return
-	 */
-	function deleteNode($node) {
-		//将node后一个结点的值赋给node
-		$node->val = $node->next->val;
-		//再将node与node下下一个结点链接
-		$node->next = $node->next->next;
-	}
+class Solution
+{
+    /**
+     * 已知要删除单节点指针node，将node后一个结点的值赋给node，再将node与node下下一个结点链接。
+     * @param ListNode $node
+     * @return
+     */
+    function deleteNode($node)
+    {
+        //将node后一个结点的值赋给node
+        $node->val = $node->next->val;
+        //再将node与node下下一个结点链接
+        $node->next = $node->next->next;
+    }
 }

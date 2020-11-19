@@ -36,26 +36,26 @@
  * @date 2020/6/10
  */
 
-class Solution {
-
-	/**
-	 *
-	 * @param Integer[] $candies
-	 * @param Integer $extraCandies
-	 * @return Boolean[]
-	 */
-	function kidsWithCandies($candies, $extraCandies) {
-
-		$res = [];
-		foreach ($candies as $candy) {
-			$res[] = $candy + $extraCandies >= max($candies);
-		}
-		return $res;
-	}
+class Solution
+{
+    /**
+     *
+     * @param Integer[] $candies
+     * @param Integer $extraCandies
+     * @return Boolean[]
+     */
+    function kidsWithCandies($candies, $extraCandies)
+    {
+        $res = [];
+        foreach ($candies as $candy) {
+            $res[] = $candy + $extraCandies >= max($candies);
+        }
+        return $res;
+    }
 }
 
 $so = new Solution();
-$candies = [4,2,1,1,2];
+$candies = [4, 2, 1, 1, 2];
 $extraCandies = 1;
 $re = $so->kidsWithCandies($candies, $extraCandies);
 var_dump($re);

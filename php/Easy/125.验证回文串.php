@@ -17,29 +17,32 @@
  * @date 2020/8/27
  */
 
-class Solution {
+class Solution
+{
+    /**
+     * @param String $s
+     * @return Boolean
+     */
+    function isPalindrome($s)
+    {
+        $i = 0;
+        $j = strlen($s) - 1;
+        while ($i < $j) {
+            // 非数字和字符串跳过
+            while ($i < $j && !ctype_alnum($s[$i])) {
+                $i++;
+            }
+            while ($i < $j && !ctype_alnum($s[$j])) {
+                $j--;
+            }
 
-	/**
-	 * @param String $s
-	 * @return Boolean
-	 */
-	function isPalindrome($s) {
-		$i = 0;
-		$j = strlen($s) - 1;
-		while($i < $j) {
-			// 非数字和字符串跳过
-			while ($i < $j && !ctype_alnum($s[$i]))
-				$i++;
-			while ($i < $j && !ctype_alnum($s[$j]))
-				$j--;
+            if (strtolower($s[$i]) != strtolower($s[$j])) {
+                return false;
+            }
 
-			if (strtolower($s[$i]) != strtolower($s[$j]))
-				return false;
-
-			$i++;
-			$j--;
-		}
-		return true;
-
-	}
+            $i++;
+            $j--;
+        }
+        return true;
+    }
 }

@@ -27,21 +27,22 @@
  * @date 2020/8/26
  */
 
-class Solution {
-	/**
-	 * 数学方法 反推，res = (当前index + m) % 上一轮剩余数字的个数
-	 * @param Integer $n
-	 * @param Integer $m
-	 * @return Integer
-	 */
-	function lastRemaining($n, $m) {
-		$res = 0;
-		// 最后一轮剩下两个人，所以从2开始反推
-		for ($i=2; $i <= $n; $i++) {
-			$res = ($res + $m) % $i;
-		}
+class Solution
+{
+    /**
+     * 数学方法 反推，res = (当前index + m) % 上一轮剩余数字的个数
+     * @param Integer $n
+     * @param Integer $m
+     * @return Integer
+     */
+    function lastRemaining($n, $m)
+    {
+        $res = 0;
+        // 最后一轮剩下两个人，所以从2开始反推
+        for ($i = 2; $i <= $n; $i++) {
+            $res = ($res + $m) % $i;
+        }
 
-		return $res;
-	}
-
+        return $res;
+    }
 }

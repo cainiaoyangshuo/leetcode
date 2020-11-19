@@ -28,32 +28,33 @@
  *     function __construct($value) { $this->val = $value; }
  * }
  */
-class Solution {
+class Solution
+{
+    /**
+     * dfs 二叉搜索树中序遍历是升序的，有序数组任意元素作为根节点进行中序遍历，
+     * 以该元素左边部分作为左子树，右边作为右子树，为高度平衡，选择数组中间元素。
+     * @param Integer[] $nums
+     * @return TreeNode
+     */
+    function sortedArrayToBST($nums)
+    {
+        return $this->dfs($nums, 0, count($nums) - 1);
+    }
 
-	/**
-	 * dfs 二叉搜索树中序遍历是升序的，有序数组任意元素作为根节点进行中序遍历，
-	 * 以该元素左边部分作为左子树，右边作为右子树，为高度平衡，选择数组中间元素。
-	 * @param Integer[] $nums
-	 * @return TreeNode
-	 */
-	function sortedArrayToBST($nums) {
-		return $this->dfs($nums, 0, count($nums)-1);
-	}
+    function dfs($nums, $low, $high)
+    {
+        if ($low > $high) {
+            return null;
+        }
 
-	function dfs($nums, $low, $high) {
-		if ($low > $high) {
-			return null;
-		}
+        // 以数组中间作为root节点
+        $mid = $low + round(($high - $low) / 2);
+        $root = new TreeNode($nums[$mid]);
 
-		// 以数组中间作为root节点
-		$mid = $low + round(($high - $low)/2);
-		$root = new TreeNode($nums[$mid]);
+        // 递归构建root的左子树与右子树
+        $root->left = $this->dfs($nums, $low, $mid - 1);
+        $root->right = $this->dfs($nums, $mid + 1, $high);
 
-		// 递归构建root的左子树与右子树
-		$root->left = $this->dfs($nums, $low, $mid-1);
-		$root->right = $this->dfs($nums, $mid+1, $high);
-
-		return $root;
-	}
+        return $root;
+    }
 }
-

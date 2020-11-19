@@ -5,27 +5,24 @@
  * @date 2019/10/22
  */
 
-
 function one($arr1, $arr2)
 {
-	$i = $j = 0;
+    $i = $j = 0;
 
-	$len1 = count($arr1);
-	$len2 = count($arr2);
+    $len1 = count($arr1);
+    $len2 = count($arr2);
 
-	while ($i < $len1 && $j < $len2) {
-		if ($arr1[$i] == $arr2[$j]) {
-			return $arr1[$i];
-		}
+    while ($i < $len1 && $j < $len2) {
+        if ($arr1[$i] == $arr2[$j]) {
+            return $arr1[$i];
+        }
 
-		if ($arr1[$i] > $arr2[$j]) {
-			$j++;
-		} else {
-			$i++;
-		}
-	}
+        if ($arr1[$i] > $arr2[$j]) {
+            $j++;
+        } else {
+            $i++;
+        }
+    }
 
-	return -1;
+    return -1;
 }
-
-
