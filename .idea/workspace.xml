@@ -7,88 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9748824a-605f-483c-8b33-f2e29b4fcb75" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/importYuwen.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/test/Food.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/test/strreplace.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/test/test.php" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/charge" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/utils" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/withdrawproxy" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Contract" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Creditloan" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Duotou" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/projects/git/firstp2p/Protos/FundGate" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Gold" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Life" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Medal" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/projects/git/firstp2p/Protos/O2O" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Open" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Ptp" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/projects/git/firstp2p/api/public/static/app" afterPath="" />
-      <change type="MOVED" beforePath="$USER_HOME$/projects/git/firstp2p/Common" afterPath="$USER_HOME$/projects/git/firstp2p/Common" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/BinaryTree/226翻转二叉树reverse.php" afterPath="$PROJECT_DIR$/php/BinaryTree/226翻转二叉树reverse.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/BinaryTree/BTree.php" afterPath="$PROJECT_DIR$/php/BinaryTree/BTree.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/BinaryTree/深度优先遍历.php" afterPath="$PROJECT_DIR$/php/BinaryTree/深度优先遍历.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/1.两数之和.php" afterPath="$PROJECT_DIR$/php/Easy/1.两数之和.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/101. 对称二叉树.php" afterPath="$PROJECT_DIR$/php/Easy/101. 对称二叉树.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/104. 二叉树的最大深度.php" afterPath="$PROJECT_DIR$/php/Easy/104. 二叉树的最大深度.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/108.将有序数组转换为二叉搜索树.php" afterPath="$PROJECT_DIR$/php/Easy/108.将有序数组转换为二叉搜索树.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/1137第n个泰波那契数.php" afterPath="$PROJECT_DIR$/php/Easy/1137第n个泰波那契数.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/125.验证回文串.php" afterPath="$PROJECT_DIR$/php/Easy/125.验证回文串.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/136. 只出现一次的数字.php" afterPath="$PROJECT_DIR$/php/Easy/136. 只出现一次的数字.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/141.环形链表.php" afterPath="$PROJECT_DIR$/php/Easy/141.环形链表.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/1431拥有最多糖果的孩子.php" afterPath="$PROJECT_DIR$/php/Easy/1431拥有最多糖果的孩子.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/14最长公共前缀.php" afterPath="$PROJECT_DIR$/php/Easy/14最长公共前缀.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/160.相交链表.php" afterPath="$PROJECT_DIR$/php/Easy/160.相交链表.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/20. 有效的括号.php" afterPath="$PROJECT_DIR$/php/Easy/20. 有效的括号.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/203.移除链表元素.php" afterPath="$PROJECT_DIR$/php/Easy/203.移除链表元素.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/206.反转链表.php" afterPath="$PROJECT_DIR$/php/Easy/206.反转链表.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/21.合并两个有序链表.php" afterPath="$PROJECT_DIR$/php/Easy/21.合并两个有序链表.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/237.删除链表节点.php" afterPath="$PROJECT_DIR$/php/Easy/237.删除链表节点.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/344. 反转字符串.php" afterPath="$PROJECT_DIR$/php/Easy/344. 反转字符串.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/501.二叉搜索树中的众数.php" afterPath="$PROJECT_DIR$/php/Easy/501.二叉搜索树中的众数.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/53. 最大子序和.php" afterPath="$PROJECT_DIR$/php/Easy/53. 最大子序和.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/617.合并二叉树.php" afterPath="$PROJECT_DIR$/php/Easy/617.合并二叉树.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/637.二叉树的层平均值.php" afterPath="$PROJECT_DIR$/php/Easy/637.二叉树的层平均值.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/7.整数反转.php" afterPath="$PROJECT_DIR$/php/Easy/7.整数反转.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/70爬楼梯.php" afterPath="$PROJECT_DIR$/php/Easy/70爬楼梯.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/9.回文数.php" afterPath="$PROJECT_DIR$/php/Easy/9.回文数.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/912. 排序数组.php" afterPath="$PROJECT_DIR$/php/Easy/912. 排序数组.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/Singleton.php" afterPath="$PROJECT_DIR$/php/Easy/Singleton.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/findSameNumber.php" afterPath="$PROJECT_DIR$/php/Easy/findSameNumber.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Easy/剑指 Offer 62. 圆圈中最后剩下的数字.php" afterPath="$PROJECT_DIR$/php/Easy/剑指 Offer 62. 圆圈中最后剩下的数字.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Hard/25.k个1组翻转链表.php" afterPath="$PROJECT_DIR$/php/Hard/25.k个1组翻转链表.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/List/List.php" afterPath="$PROJECT_DIR$/php/List/List.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/List/ListNode.php" afterPath="$PROJECT_DIR$/php/List/ListNode.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/List/返回倒数第k个节点.php" afterPath="$PROJECT_DIR$/php/List/返回倒数第k个节点.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Medium/102二叉树层序遍历.php" afterPath="$PROJECT_DIR$/php/Medium/102二叉树层序遍历.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Medium/109.有序链表转换二叉搜索树.php" afterPath="$PROJECT_DIR$/php/Medium/109.有序链表转换二叉搜索树.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Medium/146LRU.php" afterPath="$PROJECT_DIR$/php/Medium/146LRU.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Medium/179最大数.php" afterPath="$PROJECT_DIR$/php/Medium/179最大数.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Medium/201. 数字范围按位与.php" afterPath="$PROJECT_DIR$/php/Medium/201. 数字范围按位与.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Medium/215数组中第k个最大元素.php" afterPath="$PROJECT_DIR$/php/Medium/215数组中第k个最大元素.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Medium/24. 两两交换链表中的节点.php" afterPath="$PROJECT_DIR$/php/Medium/24. 两两交换链表中的节点.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Medium/3. 无重复字符的最长子串.php" afterPath="$PROJECT_DIR$/php/Medium/3. 无重复字符的最长子串.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Medium/63.不同路径.php" afterPath="$PROJECT_DIR$/php/Medium/63.不同路径.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Medium/677. 键值映射.php" afterPath="$PROJECT_DIR$/php/Medium/677. 键值映射.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Medium/695最大岛屿面积.php" afterPath="$PROJECT_DIR$/php/Medium/695最大岛屿面积.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Medium/94.二叉树的中序遍历.php" afterPath="$PROJECT_DIR$/php/Medium/94.二叉树的中序遍历.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Medium/98验证二叉搜索树.php" afterPath="$PROJECT_DIR$/php/Medium/98验证二叉搜索树.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Medium/addTwoNumbers.php" afterPath="$PROJECT_DIR$/php/Medium/addTwoNumbers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/String/Strreplace.php" afterPath="$PROJECT_DIR$/php/String/Strreplace.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/scandir.php" afterPath="$PROJECT_DIR$/php/scandir.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/search/binarySearch.php" afterPath="$PROJECT_DIR$/php/search/binarySearch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/sort/bubbleSort.php" afterPath="$PROJECT_DIR$/php/sort/bubbleSort.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/sort/duiSort.php" afterPath="$PROJECT_DIR$/php/sort/duiSort.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/sort/quickSort.php" afterPath="$PROJECT_DIR$/php/sort/quickSort.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/sort/计数排序.php" afterPath="$PROJECT_DIR$/php/sort/计数排序.php" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/projects/git/firstp2p/openapi/controllers/BaseAction.php" afterPath="$USER_HOME$/projects/git/firstp2p/openapi/controllers/BaseAction.php" />
+      <change afterPath="$PROJECT_DIR$/php/Medium/2.两数相加.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/charge" beforeDir="true" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/utils" beforeDir="true" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/withdrawproxy" beforeDir="true" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Common" beforeDir="true" afterPath="$USER_HOME$/projects/git/firstp2p/Common" afterDir="true" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Contract" beforeDir="true" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Creditloan" beforeDir="true" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Duotou" beforeDir="true" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/FundGate" beforeDir="true" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Gold" beforeDir="true" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Life" beforeDir="true" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Medal" beforeDir="true" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/O2O" beforeDir="true" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Open" beforeDir="true" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Ptp" beforeDir="true" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/api/public/static/app" beforeDir="true" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/openapi/controllers/BaseAction.php" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/openapi/controllers/BaseAction.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,77 +41,6 @@
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
     <expand />
     <select />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="scandir.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php/scandir.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Strreplace.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/String/Strreplace.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="duiSort.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/sort/duiSort.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quickSort.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/sort/quickSort.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#32#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="计数排序.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/sort/计数排序.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-              <folding>
-                <element signature="e#6#32#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -320,21 +186,6 @@
       <recent name="$PROJECT_DIR$/php/zyb" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9748824a-605f-483c-8b33-f2e29b4fcb75" name="Default" comment="" />
@@ -381,12 +232,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/projects/git/firstp2p/api/controllers/v2/deal/ReserveList.php">
