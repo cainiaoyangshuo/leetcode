@@ -4,7 +4,7 @@ func findDifference(nums1 []int, nums2 []int) [][]int {
 	map1 := map[int]int{}
 	map2 := map[int]int{}
 
-	r1, r2 := []int{}, []int{}
+	r1, r2 := make([]int, 0), make([]int, 0)
 
 	for i := range nums1 {
 		map1[nums1[i]] = 1

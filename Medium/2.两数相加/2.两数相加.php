@@ -7,14 +7,14 @@
  *     function __construct($val) { $this->val = $val; }
  * }
  */
-class Solution {
-    
+class Solution
+{
     /**
      * @param ListNode $l1
      * @param ListNode $l2
      * @return ListNode
      */
-    function addTwoNumbers($l1, $l2) {
-    
+    function addTwoNumbers($l1, $l2)
+    {
     }
 }

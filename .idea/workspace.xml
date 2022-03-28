@@ -7,23 +7,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9748824a-605f-483c-8b33-f2e29b4fcb75" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/php/Medium/2.两数相加.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/560/560_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/560/demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/560/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/demo1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/demo1_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/demo2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/charge" beforeDir="true" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/utils" beforeDir="true" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/withdrawproxy" beforeDir="true" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Common" beforeDir="true" afterPath="$USER_HOME$/projects/git/firstp2p/Common" afterDir="true" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Contract" beforeDir="true" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Creditloan" beforeDir="true" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Duotou" beforeDir="true" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/FundGate" beforeDir="true" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Gold" beforeDir="true" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Life" beforeDir="true" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Medal" beforeDir="true" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/O2O" beforeDir="true" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Open" beforeDir="true" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Ptp" beforeDir="true" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/api/public/static/app" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/Easy/1337.战斗力最弱的k行/1337.战斗力最弱的k行.php" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/1337.战斗力最弱的k行/1337.战斗力最弱的k行.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Easy/5268.找出两数组的不同/5268找出两数组的不同.go" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/5268.找出两数组的不同/5268找出两数组的不同.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Easy/demo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/demo.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium/2.两数相加/2.两数相加.php" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/2.两数相加/2.两数相加.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/Easy/1337.战斗力最弱的k行.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/Easy/1337.战斗力最弱的k行.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/Medium/2.两数相加.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/Medium/2.两数相加.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/charge" beforeDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/utils" beforeDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/withdrawproxy" beforeDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Common" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/Common" afterDir="true" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Contract" beforeDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Creditloan" beforeDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Duotou" beforeDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/FundGate" beforeDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Gold" beforeDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Life" beforeDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Medal" beforeDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/O2O" beforeDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Open" beforeDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Ptp" beforeDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/api/public/static/app" beforeDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-concat/node_modules/chalk/node_modules/.bin/strip-ansi" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-concat/node_modules/chalk/node_modules/.bin/strip-ansi" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-jshint/node_modules/.bin/jshint" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-jshint/node_modules/.bin/jshint" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/.bin/shjs" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/.bin/shjs" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/.bin/strip-json-comments" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/.bin/strip-json-comments" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-uglify/node_modules/.bin/uglifyjs" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-uglify/node_modules/.bin/uglifyjs" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-uglify/node_modules/chalk/node_modules/.bin/strip-ansi" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-uglify/node_modules/chalk/node_modules/.bin/strip-ansi" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-uglify/node_modules/maxmin/node_modules/.bin/gzip-size" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-uglify/node_modules/maxmin/node_modules/.bin/gzip-size" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-uglify/node_modules/maxmin/node_modules/.bin/pretty-bytes" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-uglify/node_modules/maxmin/node_modules/.bin/pretty-bytes" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/.bin/cleancss" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/.bin/cleancss" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/.bin/csslint" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/.bin/csslint" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/.bin/gunzip-js" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/.bin/gunzip-js" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/.bin/gzip-js" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/.bin/gzip-js" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/gzip-js/node_modules/.bin/crc32" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/gzip-js/node_modules/.bin/crc32" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/gzip-js/node_modules/.bin/deflate-js" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/gzip-js/node_modules/.bin/deflate-js" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/gzip-js/node_modules/.bin/inflate-js" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/gzip-js/node_modules/.bin/inflate-js" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/cake" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/cake" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/coffee" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/coffee" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/js-yaml" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/js-yaml" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/nopt" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/nopt" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/rimraf" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/rimraf" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/which" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/which" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/js-yaml/node_modules/.bin/esparse" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/js-yaml/node_modules/.bin/esparse" afterDir="false" />
+      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/js-yaml/node_modules/.bin/esvalidate" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/js-yaml/node_modules/.bin/esvalidate" afterDir="false" />
       <change beforePath="$USER_HOME$/projects/git/firstp2p/openapi/controllers/BaseAction.php" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/openapi/controllers/BaseAction.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +81,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SQL" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -72,6 +108,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -176,15 +220,114 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/php/zyb" />
     </key>
+  </component>
+  <component name="RunManager" selected="Go Test.Test_main4 in a/go">
+    <configuration name="go build " type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="PACKAGE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_main in a/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/go" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="a/go" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_main\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_main1 in a/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/go" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="a/go" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_main1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_main2 in a/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/go" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="a/go" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_main2\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_main3 in a/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/go" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="a/go" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_main3\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_main4 in a/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/go" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="a/go" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_main4\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test " type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="PACKAGE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build " />
+      <item itemvalue="Go Test.go test " />
+      <item itemvalue="Go Test.Test_main in a/go" />
+      <item itemvalue="Go Test.Test_main1 in a/go" />
+      <item itemvalue="Go Test.Test_main2 in a/go" />
+      <item itemvalue="Go Test.Test_main3 in a/go" />
+      <item itemvalue="Go Test.Test_main4 in a/go" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.Test_main4 in a/go" />
+        <item itemvalue="Go Test.Test_main3 in a/go" />
+        <item itemvalue="Go Test.Test_main2 in a/go" />
+        <item itemvalue="Go Test.Test_main1 in a/go" />
+        <item itemvalue="Go Test.Test_main in a/go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -232,6 +375,50 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Medium/560/demo.go</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go/demo1.go</url>
+          <line>29</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go/demo1.go</url>
+          <line>76</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go/demo1.go</url>
+          <line>83</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go/demo1.go</url>
+          <line>92</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go/demo2.go</url>
+          <line>23</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go/demo2.go</url>
+          <line>16</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/projects/git/firstp2p/api/controllers/v2/deal/ReserveList.php">
