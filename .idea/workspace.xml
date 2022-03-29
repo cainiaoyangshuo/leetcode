@@ -7,20 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9748824a-605f-483c-8b33-f2e29b4fcb75" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Medium/560/560_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/560/demo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/560/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/demo1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/demo1_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/demo2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/155.minStack/minstack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/155.minStack/minstack_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/List/02.08/detectCycle.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/200.numIslands/numIslands.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/200.numIslands/numberOfIslands.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/1337.战斗力最弱的k行/1337.战斗力最弱的k行.php" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/1337.战斗力最弱的k行/1337.战斗力最弱的k行.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/5268.找出两数组的不同/5268找出两数组的不同.go" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/5268.找出两数组的不同/5268找出两数组的不同.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/demo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/demo.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Medium/2.两数相加/2.两数相加.php" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/2.两数相加/2.两数相加.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/Easy/1337.战斗力最弱的k行.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/Easy/1337.战斗力最弱的k行.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/Medium/2.两数相加.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/Medium/2.两数相加.php" afterDir="false" />
       <change beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/charge" beforeDir="false" />
       <change beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/utils" beforeDir="false" />
       <change beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/withdrawproxy" beforeDir="false" />
@@ -232,7 +224,7 @@
       <recent name="$PROJECT_DIR$/php/zyb" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.Test_main4 in a/go">
+  <component name="RunManager" selected="Go Test.TestMinStack_GetMin in a/Easy/155.minStack">
     <configuration name="go build " type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
@@ -241,16 +233,16 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_main in a/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMinStack_GetMin in a/Easy/155.minStack" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/go" />
+      <working_directory value="$PROJECT_DIR$/Easy/155.minStack" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="a/go" />
+      <package value="a/Easy/155.minStack" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_main\E$" />
+      <pattern value="^\QTestMinStack_GetMin\E$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_main1 in a/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -313,19 +305,19 @@
     <list>
       <item itemvalue="Go Build.go build " />
       <item itemvalue="Go Test.go test " />
-      <item itemvalue="Go Test.Test_main in a/go" />
       <item itemvalue="Go Test.Test_main1 in a/go" />
       <item itemvalue="Go Test.Test_main2 in a/go" />
       <item itemvalue="Go Test.Test_main3 in a/go" />
       <item itemvalue="Go Test.Test_main4 in a/go" />
+      <item itemvalue="Go Test.TestMinStack_GetMin in a/Easy/155.minStack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestMinStack_GetMin in a/Easy/155.minStack" />
         <item itemvalue="Go Test.Test_main4 in a/go" />
         <item itemvalue="Go Test.Test_main3 in a/go" />
         <item itemvalue="Go Test.Test_main2 in a/go" />
         <item itemvalue="Go Test.Test_main1 in a/go" />
-        <item itemvalue="Go Test.Test_main in a/go" />
       </list>
     </recent_temporary>
   </component>
@@ -409,13 +401,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/go/demo2.go</url>
-          <line>23</line>
+          <line>22</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/go/demo2.go</url>
           <line>16</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Easy/155.minStack/minstack_test.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
