@@ -7,11 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9748824a-605f-483c-8b33-f2e29b4fcb75" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Easy/155.minStack/minstack.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/155.minStack/minstack_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List/02.08/detectCycle.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/200.numIslands/numIslands.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/200.numIslands/numberOfIslands.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/543.diameterOfBinaryTree/diameterOfBinaryTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/543.diameterOfBinaryTree/diameter_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hard/42.trap/trap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hard/42.trap/trap_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/240.SearchMatrix/searchMatrix.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/240.SearchMatrix/search_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/34.searchRange/searchRange.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/34.searchRange/searchRange_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/offer076.topK/topK.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/offer076.topK/topK_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/charge" beforeDir="false" />
       <change beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/utils" beforeDir="false" />
@@ -224,7 +229,7 @@
       <recent name="$PROJECT_DIR$/php/zyb" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestMinStack_GetMin in a/Easy/155.minStack">
+  <component name="RunManager" selected="Go Test.TestSearchMatrix in a/Medium/240.SearchMatrix">
     <configuration name="go build " type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
@@ -233,64 +238,64 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMinStack_GetMin in a/Easy/155.minStack" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSearchMatrix in a/Medium/240.搜索二维矩阵" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/Easy/155.minStack" />
+      <working_directory value="$PROJECT_DIR$/Medium/240.搜索二维矩阵" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="a/Easy/155.minStack" />
+      <package value="a/Medium/240.搜索二维矩阵" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestMinStack_GetMin\E$" />
+      <pattern value="^\QTestSearchMatrix\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_main1 in a/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSearchMatrix in a/Medium/240.SearchMatrix" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/go" />
+      <working_directory value="$PROJECT_DIR$/Medium/240.SearchMatrix" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="a/go" />
+      <package value="a/Medium/240.SearchMatrix" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_main1\E$" />
+      <pattern value="^\QTestSearchMatrix\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_main2 in a/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_findKthLargest in a/Medium/offer076.topK" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/go" />
+      <working_directory value="$PROJECT_DIR$/Medium/offer076.topK" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="a/go" />
+      <package value="a/Medium/offer076.topK" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_main2\E$" />
+      <pattern value="^\QTest_findKthLargest\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_main3 in a/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_search in a/Medium/34.searchRange" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/go" />
+      <working_directory value="$PROJECT_DIR$/Medium/34.searchRange" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="a/go" />
+      <package value="a/Medium/34.searchRange" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_main3\E$" />
+      <pattern value="^\QTest_search\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_main4 in a/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_trap in a/Hard/42.trap" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/go" />
+      <working_directory value="$PROJECT_DIR$/Hard/42.trap" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="a/go" />
+      <package value="a/Hard/42.trap" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_main4\E$" />
+      <pattern value="^\QTest_trap\E$" />
       <method v="2" />
     </configuration>
     <configuration name="go test " type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
@@ -305,19 +310,19 @@
     <list>
       <item itemvalue="Go Build.go build " />
       <item itemvalue="Go Test.go test " />
-      <item itemvalue="Go Test.Test_main1 in a/go" />
-      <item itemvalue="Go Test.Test_main2 in a/go" />
-      <item itemvalue="Go Test.Test_main3 in a/go" />
-      <item itemvalue="Go Test.Test_main4 in a/go" />
-      <item itemvalue="Go Test.TestMinStack_GetMin in a/Easy/155.minStack" />
+      <item itemvalue="Go Test.Test_search in a/Medium/34.searchRange" />
+      <item itemvalue="Go Test.Test_findKthLargest in a/Medium/offer076.topK" />
+      <item itemvalue="Go Test.Test_trap in a/Hard/42.trap" />
+      <item itemvalue="Go Test.TestSearchMatrix in a/Medium/240.搜索二维矩阵" />
+      <item itemvalue="Go Test.TestSearchMatrix in a/Medium/240.SearchMatrix" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestMinStack_GetMin in a/Easy/155.minStack" />
-        <item itemvalue="Go Test.Test_main4 in a/go" />
-        <item itemvalue="Go Test.Test_main3 in a/go" />
-        <item itemvalue="Go Test.Test_main2 in a/go" />
-        <item itemvalue="Go Test.Test_main1 in a/go" />
+        <item itemvalue="Go Test.TestSearchMatrix in a/Medium/240.SearchMatrix" />
+        <item itemvalue="Go Test.TestSearchMatrix in a/Medium/240.搜索二维矩阵" />
+        <item itemvalue="Go Test.Test_trap in a/Hard/42.trap" />
+        <item itemvalue="Go Test.Test_findKthLargest in a/Medium/offer076.topK" />
+        <item itemvalue="Go Test.Test_search in a/Medium/34.searchRange" />
       </list>
     </recent_temporary>
   </component>
@@ -413,6 +418,16 @@
           <url>file://$PROJECT_DIR$/Easy/155.minStack/minstack_test.go</url>
           <line>13</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Medium/offer076.topK/topK.go</url>
+          <line>41</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Hard/42.trap/trap.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
