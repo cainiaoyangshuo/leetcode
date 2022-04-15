@@ -1,5 +1,7 @@
 package _40_SearchMatrix
-
+/**
+  二分
+ */
 
 func SearchMatrix(matrix [][]int, target int) bool {
 	for _, v := range matrix {
@@ -19,7 +21,11 @@ func SearchMatrix(matrix [][]int, target int) bool {
 	return false
 }
 
-// 优化 O(m+n) 从(0, m-1)开始找
+/*
+ Z字形查找
+ 优化 O(m+n) 从(0, m-1)开始找
+ */
+
 func SearchMatrix01(matrix [][]int, target int) bool {
 	cowNum, columnNum := len(matrix), len(matrix[0])
 	// 起始点: 右上角

@@ -1,5 +1,9 @@
 package _6_isValidSudoku
-
+/**
+有效的数独
+https://leetcode-cn.com/problems/valid-sudoku/
+哈希表
+ */
 import "fmt"
 
 func isValidSudoku(board [][]string) bool {

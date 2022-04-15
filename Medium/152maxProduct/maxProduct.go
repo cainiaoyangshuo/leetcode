@@ -2,6 +2,8 @@ package _52maxProduct
 
 /**
  最大乘积子数组
+ https://leetcode-cn.com/problems/maximum-product-subarray/
+ dp
  */
 func maxProduct(nums []int) int {
 	if len(nums) < 2 {

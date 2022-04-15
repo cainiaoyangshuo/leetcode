@@ -1,4 +1,9 @@
 package _2_generateParenthesis
+/*
+括号生成
+https://leetcode-cn.com/problems/generate-parentheses/
+回溯、dp
+ */
 
 func GenerateParenthesis(n int) []string {
 	res := []string{}
