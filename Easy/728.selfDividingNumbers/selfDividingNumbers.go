@@ -11,7 +11,7 @@ func SelfDividingNumbers(left int, right int) []int {
 }
 
 func isDividing(num int) bool {
-	
+
 	for i := num; i > 0; i /= 10 {
 		// 取个位数
 		d := i%10

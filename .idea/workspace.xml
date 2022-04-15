@@ -7,17 +7,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9748824a-605f-483c-8b33-f2e29b4fcb75" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Easy/543.diameterOfBinaryTree/diameterOfBinaryTree.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/543.diameterOfBinaryTree/diameter_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/42.trap/trap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/42.trap/trap_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/240.SearchMatrix/searchMatrix.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/240.SearchMatrix/search_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/34.searchRange/searchRange.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/34.searchRange/searchRange_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/offer076.topK/topK.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/offer076.topK/topK_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryTree/BTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/101.对称二叉树/isSymmetric.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/13romanToInt/romanToInt.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/13romanToInt/roman_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/169majorityElement/maj_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/169majorityElement/majorityElement.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/26removeDuplicates/removeDuplicates.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/27removeElement/removeElement.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/28strStr/strStr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/28strStr/str_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/53.最大子序和/maxSubArray.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/List/List.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/List/list_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/146LRU/LRU.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/146LRU/LRU_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/148sortList/sortList.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/152maxProduct/maxProduct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/153findMin/findMin.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/22.generateParenthesis/d_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/22.generateParenthesis/generateParenthesis.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/229majorityElement/ma_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/229majorityElement/majorityElement.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/322coinChange/coinChange.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/36.isValidSudoku/isValidSudoku.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/36.isValidSudoku/isValidSudoku_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/468validIPAddress/validIPAddress.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/468validIPAddress/valid_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/55canJump/canJump.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/55canJump/jump_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/62uniquePaths/uniquePaths.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/79.exist/exist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comm.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mianshijindian/0101/isUnique.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Easy/728.selfDividingNumbers/selfDividingNumbers.go" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/728.selfDividingNumbers/selfDividingNumbers.go" afterDir="false" />
       <change beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/charge" beforeDir="false" />
       <change beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/utils" beforeDir="false" />
       <change beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/withdrawproxy" beforeDir="false" />
@@ -103,6 +127,7 @@
       <dir>$USER_HOME$/projects/git/firstp2p/api/controllers</dir>
     </dirStrings>
   </component>
+  <component name="GOROOT" url="file:///usr/local/Cellar/go/1.16.6/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -140,6 +165,9 @@
         <option value="$PROJECT_DIR$/php/sort/计数排序.php" />
         <option value="$PROJECT_DIR$/php/String/Strreplace.php" />
         <option value="$PROJECT_DIR$/php/sort/quickSort.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Medium/98验证二叉搜索树/98验证二叉搜索树.php" />
+        <option value="$PROJECT_DIR$/Medium/200.numIslands/numIslands.php" />
       </list>
     </option>
   </component>
@@ -159,6 +187,7 @@
     <option name="width" value="1400" />
     <option name="height" value="837" />
   </component>
+  <component name="ProjectId" id="27YJtmQT32FmLFnw03MlIepYdyH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -185,28 +214,46 @@
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Easy" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sort" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Easy" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="101.对称二叉树" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="String" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Easy" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="141.环形链表" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="redis" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="leetcode" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="List" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="redis" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="leetcode" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Medium" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Medium" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="200.numIslands" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Medium" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="215数组中第k个最大元素" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="search" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -216,9 +263,16 @@
       <pane id="Scratches" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -229,7 +283,16 @@
       <recent name="$PROJECT_DIR$/php/zyb" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestSearchMatrix in a/Medium/240.SearchMatrix">
+  <component name="RunManager" selected="Go Test.Test_Jump/test2 in a/Medium/55canJump">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="PACKAGE" />
+      <package value="a" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build " type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
@@ -238,64 +301,74 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSearchMatrix in a/Medium/240.搜索二维矩阵" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_Jump/test1 in a/Medium/55canJump" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/Medium/240.搜索二维矩阵" />
+      <working_directory value="$PROJECT_DIR$/Medium/55canJump" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="a/Medium/240.搜索二维矩阵" />
+      <package value="a/Medium/55canJump" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestSearchMatrix\E$" />
+      <pattern value="^\QTest_Jump\E$/^\Qtest1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSearchMatrix in a/Medium/240.SearchMatrix" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_Jump/test2 in a/Medium/55canJump" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/Medium/240.SearchMatrix" />
+      <working_directory value="$PROJECT_DIR$/Medium/55canJump" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="a/Medium/240.SearchMatrix" />
+      <package value="a/Medium/55canJump" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestSearchMatrix\E$" />
+      <pattern value="^\QTest_Jump\E$/^\Qtest2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_findKthLargest in a/Medium/offer076.topK" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_LRU in a/Medium/146LRU" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/Medium/offer076.topK" />
+      <working_directory value="$PROJECT_DIR$/Medium/146LRU" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="a/Medium/offer076.topK" />
+      <package value="a/Medium/146LRU" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_findKthLargest\E$" />
+      <pattern value="^\QTest_LRU\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_search in a/Medium/34.searchRange" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_strStr in a/Easy/28strStr" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/Medium/34.searchRange" />
+      <working_directory value="$PROJECT_DIR$/Easy/28strStr" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="a/Medium/34.searchRange" />
+      <package value="a/Easy/28strStr" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_search\E$" />
+      <pattern value="^\QTest_strStr\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_trap in a/Hard/42.trap" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_strStr/2 in a/Easy/28strStr" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/Hard/42.trap" />
+      <working_directory value="$PROJECT_DIR$/Easy/28strStr" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="a/Hard/42.trap" />
+      <package value="a/Easy/28strStr" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_trap\E$" />
+      <pattern value="^\QTest_strStr\E$/^\Q2\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <package value="a" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <configuration name="go test " type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
@@ -307,25 +380,24 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" />
     <list>
       <item itemvalue="Go Build.go build " />
       <item itemvalue="Go Test.go test " />
-      <item itemvalue="Go Test.Test_search in a/Medium/34.searchRange" />
-      <item itemvalue="Go Test.Test_findKthLargest in a/Medium/offer076.topK" />
-      <item itemvalue="Go Test.Test_trap in a/Hard/42.trap" />
-      <item itemvalue="Go Test.TestSearchMatrix in a/Medium/240.搜索二维矩阵" />
-      <item itemvalue="Go Test.TestSearchMatrix in a/Medium/240.SearchMatrix" />
+      <item itemvalue="Go Test.Test_LRU in a/Medium/146LRU" />
+      <item itemvalue="Go Test.Test_strStr in a/Easy/28strStr" />
+      <item itemvalue="Go Test.Test_strStr/2 in a/Easy/28strStr" />
+      <item itemvalue="Go Test.Test_Jump/test1 in a/Medium/55canJump" />
+      <item itemvalue="Go Test.Test_Jump/test2 in a/Medium/55canJump" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestSearchMatrix in a/Medium/240.SearchMatrix" />
-        <item itemvalue="Go Test.TestSearchMatrix in a/Medium/240.搜索二维矩阵" />
-        <item itemvalue="Go Test.Test_trap in a/Hard/42.trap" />
-        <item itemvalue="Go Test.Test_findKthLargest in a/Medium/offer076.topK" />
-        <item itemvalue="Go Test.Test_search in a/Medium/34.searchRange" />
+        <item itemvalue="Go Test.Test_Jump/test2 in a/Medium/55canJump" />
+        <item itemvalue="Go Test.Test_Jump/test1 in a/Medium/55canJump" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9748824a-605f-483c-8b33-f2e29b4fcb75" name="Default" comment="" />
@@ -338,40 +410,38 @@
       <workItem from="1603034068808" duration="4526000" />
       <workItem from="1604157117476" duration="39921000" />
       <workItem from="1605454517097" duration="20956000" />
+      <workItem from="1648350513836" duration="23275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100573000" />
+    <option name="totallyTimeSpent" value="123848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23104435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23390558" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31076178" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30108827" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22389127" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.286578" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="version" value="3" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -380,133 +450,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/Medium/560/demo.go</url>
-          <line>10</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/go/demo1.go</url>
-          <line>29</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/go/demo1.go</url>
-          <line>76</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/go/demo1.go</url>
-          <line>83</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/go/demo1.go</url>
-          <line>92</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/go/demo2.go</url>
-          <line>22</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/go/demo2.go</url>
-          <line>16</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/Easy/155.minStack/minstack_test.go</url>
-          <line>13</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/Medium/offer076.topK/topK.go</url>
-          <line>41</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/Hard/42.trap/trap.go</url>
-          <line>9</line>
-          <option name="timeStamp" value="21" />
+          <url>file://$PROJECT_DIR$/Medium/55canJump/canJump.go</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/projects/git/firstp2p/api/controllers/v2/deal/ReserveList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="58" column="46" lean-forward="false" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects/git/firstp2p/core/service/UserReservationService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5920">
-          <caret line="349" column="26" lean-forward="false" selection-start-line="349" selection-start-column="26" selection-end-line="349" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects/git/firstp2p/core/dao/UserReservationModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
-          <caret line="151" column="25" lean-forward="false" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/test/importprops.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11020">
-          <caret line="551" column="9" lean-forward="false" selection-start-line="551" selection-start-column="9" selection-end-line="551" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18680">
-          <caret line="934" column="9" lean-forward="false" selection-start-line="934" selection-start-column="9" selection-end-line="934" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects/git/firstp2p/libs/db/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="72" column="27" lean-forward="false" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/t.32.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1580">
-          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects/git/firstp2p/api/controllers/v2/deal/ReserveList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="58" column="46" lean-forward="false" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/projects/git/firstp2p/core/service/UserReservationService.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5920">
@@ -565,20 +516,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/test/importprops.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/char3.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/php/test/importprops.php" />
+    <entry file="file://$PROJECT_DIR$/char3.sql" />
     <entry file="file://$USER_HOME$/projects/git/firstp2p/core/dao/UserReservationModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2620">
@@ -600,193 +539,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/test/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/php/test/test.php" />
     <entry file="file://$PROJECT_DIR$/char2.sql" />
-    <entry file="file://$PROJECT_DIR$/char1124.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="197" column="100" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/char1124.sql" />
     <entry file="file://$USER_HOME$/Tools/redis/src/sds.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1240">
           <caret line="62" column="46" lean-forward="false" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_d.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7040">
-          <caret line="352" column="8" lean-forward="false" selection-start-line="352" selection-start-column="8" selection-end-line="352" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/test/test1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="64" lean-forward="false" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/zyb/char1214.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/char1214.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="168" column="108" lean-forward="false" selection-start-line="168" selection-start-column="108" selection-end-line="168" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/zyb/1214word.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="201" selection-end-column="178" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/zyb/explodeFile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/zyb/1214char.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/zyb/1214word.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/zyb/1314char.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/zyb/1414char.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/words1214.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2601">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/zyb/sql/1314char.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="248" column="160" lean-forward="false" selection-start-line="248" selection-start-column="116" selection-end-line="248" selection-end-column="160" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/zyb/sql/1414char.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="253" column="164" lean-forward="false" selection-start-line="253" selection-start-column="57" selection-end-line="253" selection-end-column="164" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/test/transform_ocrdata_qcnt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="46" column="46" lean-forward="false" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/test/parent_user_weekly_check_stat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/t.32.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="79" column="5" lean-forward="false" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/importYuwen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="46" column="18" lean-forward="false" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/php/test/test1.php" />
+    <entry file="file://$PROJECT_DIR$/php/zyb/char1214.sql" />
+    <entry file="file://$PROJECT_DIR$/char1214.sql" />
+    <entry file="file://$PROJECT_DIR$/php/zyb/1214word.sql" />
+    <entry file="file://$PROJECT_DIR$/php/zyb/explodeFile.php" />
+    <entry file="file://$PROJECT_DIR$/php/zyb/1214char.php" />
+    <entry file="file://$PROJECT_DIR$/php/zyb/1214word.php" />
+    <entry file="file://$PROJECT_DIR$/php/zyb/1314char.php" />
+    <entry file="file://$PROJECT_DIR$/php/zyb/1414char.php" />
+    <entry file="file://$PROJECT_DIR$/words1214.sql" />
+    <entry file="file://$PROJECT_DIR$/php/zyb/sql/1314char.sql" />
+    <entry file="file://$PROJECT_DIR$/php/zyb/sql/1414char.sql" />
+    <entry file="file://$PROJECT_DIR$/php/test/transform_ocrdata_qcnt.php" />
+    <entry file="file://$PROJECT_DIR$/php/test/parent_user_weekly_check_stat.php" />
+    <entry file="file://$PROJECT_DIR$/ttt.php" />
+    <entry file="file://$PROJECT_DIR$/t.32.php" />
+    <entry file="file://$PROJECT_DIR$/importYuwen.php" />
     <entry file="file://$PROJECT_DIR$/php/sort/计数排序.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding>
-            <element signature="e#6#32#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -794,7 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="559">
           <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -802,7 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -810,9 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#32#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,6 +598,110 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="200">
+            <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Easy/findSameNumber.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/List/ListNode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/List/返回倒数第k个节点.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#31#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_d.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="338" column="9" lean-forward="false" selection-start-line="338" selection-start-column="9" selection-end-line="338" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Medium/98验证二叉搜索树/98验证二叉搜索树.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1039">
+          <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Medium/200.numIslands/numIslands.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Easy/141.环形链表/141.环形链表.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="57" column="25" lean-forward="false" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/binarySearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/SPL/SPL_c1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="1373" column="37" lean-forward="false" selection-start-line="1373" selection-start-column="37" selection-end-line="1373" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Medium/215数组中第k个最大元素/215数组中第k个最大元素.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <element signature="e#6#32#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Easy/101.对称二叉树/101. 对称二叉树.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding />
         </state>
       </provider>
