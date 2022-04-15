@@ -30,14 +30,32 @@ func Test_RemoveK(t *testing.T)  {
 			args1: 9,
 			want: "0",
 		},
+		{
+			name: "test4",
+			args0: "1432219",
+			args1: 3,
+			want: "1219",
+		},
+		{
+			name: "test5",
+			args0: "13578645",
+			args1: 3,
+			want: "13545",
+		},
+		{
+			name: "test6",
+			args0: "10001",
+			args1: 4,
+			want: "0",
+		},
 	}
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			res := removeKdigits(tt.args0, tt.args1)
+			res := removeKdigits1(tt.args0, tt.args1)
 			fmt.Printf(" %v\n ", res)
 			if res != tt.want {
-				t.Errorf("removeKdigits = %v want %v", res, tt.want)
+				t.Errorf("name:%v, arg:%v, res:%v, want %v", tt.name, tt.args0, res, tt.want)
 			}
 		})
 	}

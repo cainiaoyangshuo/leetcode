@@ -7,7 +7,7 @@ package _02removeKdigits
 
 import "strings"
 
-
+// 个别case过不了，找不到问题，暂时考率用单调栈实现
 func removeKdigits(num string, k int) string {
 	n := len(num)
 	if n <= k {
@@ -15,11 +15,11 @@ func removeKdigits(num string, k int) string {
 	}
 
 	timer := 0
-	var remove func(num string, k int) []byte
-	remove = func(num string, k int) []byte {
+	var remove func(num string, k int) string
+	remove = func(num string, k int) string {
 		s := []byte{}
 		if timer == k {
-			return s
+			return num
 		}
 		for i := range num {
 			v := num[i]
@@ -30,11 +30,15 @@ func removeKdigits(num string, k int) string {
 
 			s = append(s, v)
 		}
+		// 防止死循环 如果最后一个是最大的，则终止递归 移除最后的数字
+		if len(s) == len(num) {
+			return num[:len(num)-(k-timer)]
+		}
 		return remove(string(s), k)
 	}
 
 	s := remove(num, k)
-	res := strings.TrimLeft(string(s), "0")
+	res := strings.TrimLeft(s, "0")
 	if res == "" {
 		return "0"
 	}
@@ -42,4 +46,40 @@ func removeKdigits(num string, k int) string {
 	return res
 }
 
+/*
+ 单调栈
+ 单调递增栈：
+ */
+func removeKdigits1(num string, k int) string {
+	n := len(num)
+	if n <= k {
+		return "0"
+	}
 
+	stack := []rune{}
+	for _, c := range num {
+		// 出栈 当前值比栈顶值小，栈顶出栈，当前值入栈
+		for k > 0 && len(stack) > 0 && stack[len(stack) -1] > c {
+			stack = stack[:len(stack)-1]
+			k--
+		}
+
+		// 入栈 栈为空且当前值为0时不能入栈
+		if c != '0' || len(stack) != 0 {
+			stack = append(stack, c)
+		}
+	}
+
+	// 没删够则继续删 不能直接移除后k个，len(stack) < k时 会越界。
+	for len(stack) != 0 && k > 0 {
+		stack = stack[:len(stack)-1]
+		k--
+	}
+
+	res := string(stack)
+	if res == "" {
+		return "0"
+	}
+
+	return res
+}
