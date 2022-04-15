@@ -24,6 +24,12 @@ func Test_RemoveK(t *testing.T)  {
 			args1: 1,
 			want: "11",
 		},
+		{
+			name: "test3",
+			args0: "1234567890",
+			args1: 9,
+			want: "0",
+		},
 	}
 
 	for _, tt := range tests {

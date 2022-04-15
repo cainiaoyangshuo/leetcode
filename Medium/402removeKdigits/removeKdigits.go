@@ -14,23 +14,26 @@ func removeKdigits(num string, k int) string {
 		return "0"
 	}
 
-	s := []byte{}
 	timer := 0
-
-	for i := range num {
-		v := num[i]
-		if i < n-1 && num[i+1] < v && timer < k {
-			timer++
-			continue
+	var remove func(num string, k int) []byte
+	remove = func(num string, k int) []byte {
+		s := []byte{}
+		if timer == k {
+			return s
 		}
+		for i := range num {
+			v := num[i]
+			if i < len(num)-1 && num[i+1] < v && timer < k {
+				timer++
+				continue
+			}
 
-		s = append(s, v)
+			s = append(s, v)
+		}
+		return remove(string(s), k)
 	}
 
-	if timer < k {
-		s = s[:len(s)-(k-timer)]
-	}
-
+	s := remove(num, k)
 	res := strings.TrimLeft(string(s), "0")
 	if res == "" {
 		return "0"
