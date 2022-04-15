@@ -19,13 +19,16 @@ func removeKdigits(num string, k int) string {
 
 	for i := range num {
 		v := num[i]
-
 		if i < n-1 && num[i+1] < v && timer < k {
 			timer++
 			continue
 		}
 
 		s = append(s, v)
+	}
+
+	if timer < k {
+		s = s[:len(s)-(k-timer)]
 	}
 
 	res := strings.TrimLeft(string(s), "0")
