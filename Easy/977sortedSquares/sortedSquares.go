@@ -7,7 +7,7 @@ https://leetcode-cn.com/problems/squares-of-a-sorted-array/
 package _77sortedSquares
 
 /**
- 时间复杂度:O(n) 
+ 时间复杂度:O(n)
  空间复杂度:O(1)
  */
 func sortedSquares(nums []int) []int {
