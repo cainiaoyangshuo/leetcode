@@ -1,9 +1,11 @@
+/**
+  53.最大子数组和 https://leetcode-cn.com/problems/maximum-subarray/
+*/
+
 package _3_最大子序和
 
-
 /**
-   最大子数组和
-   https://leetcode-cn.com/problems/maximum-subarray/
+ * 思路：动态规划。
  */
 func maxSubArray(nums []int) int {
 	if len(nums) < 2 {
@@ -33,4 +35,40 @@ func Max(x, y int) int {
 		return x
 	}
 	return y
+}
+
+func maxSubArray1(nums []int) int {
+	pre, max := 0, nums[0]
+
+	for _, v := range nums {
+		pre = Max(pre + v, v)
+		max = Max(max, pre)
+	}
+
+	return max
+}
+
+/**
+ * dp 不优化空间, dp数组表示以i结尾的子数组和, 初始值为nums[0], 状态转移情况
+ * 1:dp[i-1] > 0, 直接把nums[i]加到dp[i]
+ * 2.dp[i-1] <= 0, 把nums[i]加上也不会变大。于是，另起炉灶，dp[i]处即为nums[i]
+ */
+func maxSubArray2(nums []int) int {
+	n := len(nums)
+	dp := make([]int, n)
+	dp[0] = nums[0]
+
+	max := nums[0]
+
+	for i := 1; i < n; i++ {
+		if dp[i-1] > 0 {
+			dp[i] = dp[i-1] + nums[i]
+		} else {
+			dp[i] = nums[i]
+		}
+
+		max = Max(max, dp[i])
+	}
+
+	return max
 }
