@@ -1,9 +1,9 @@
 /**
- * @desc 977.有序数组的平方
-https://leetcode-cn.com/problems/squares-of-a-sorted-array/
+ * @desc 977.有序数组的平方 https://leetcode-cn.com/problems/squares-of-a-sorted-array/
  * @date 2022/4/22
  * @user yangshuo
  */
+
 package _77sortedSquares
 
 /**

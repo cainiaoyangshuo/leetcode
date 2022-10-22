@@ -3,8 +3,12 @@
  * @date 2022/5/2
  * @user yangshuo
  */
+
 package _9generateMatrix
 
+/**
+ * 按层模拟。
+ */
 func generateMatrix(n int) [][]int {
 	left, top, right, bottom := 0, 0, n-1, n-1
 	k := 1

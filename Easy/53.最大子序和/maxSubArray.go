@@ -5,7 +5,7 @@
 package _3_最大子序和
 
 /**
- * 思路：动态规划。
+ * 思路：动态规划。 优化空间 O(1)
  */
 func maxSubArray(nums []int) int {
 	if len(nums) < 2 {
@@ -58,6 +58,7 @@ func maxSubArray2(nums []int) int {
 	dp := make([]int, n)
 	dp[0] = nums[0]
 
+	//最大和
 	max := nums[0]
 
 	for i := 1; i < n; i++ {
@@ -67,6 +68,7 @@ func maxSubArray2(nums []int) int {
 			dp[i] = nums[i]
 		}
 
+		//更新最大和，即当前子数组和和上一个和的较大者。
 		max = Max(max, dp[i])
 	}
 

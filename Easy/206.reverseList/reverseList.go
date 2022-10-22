@@ -78,3 +78,19 @@ func reverseList2(head *ListNode) *ListNode {
 
 	return p
 }
+
+//面试错误case
+func reverseListB(node *ListNode) *ListNode {
+	var pre *ListNode
+	curr := node
+
+	for curr != nil {
+		next := curr.Next
+		pre = curr //错  curr.Next = pre
+
+		curr = next //这是最后一步 pre = curr
+		next = pre  //没有这步  curr = next
+	}
+
+	return pre
+}

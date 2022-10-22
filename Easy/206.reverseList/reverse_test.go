@@ -12,8 +12,8 @@ import (
 )
 
 func Test_reverse(t *testing.T)  {
-	arr := []int{1,2,3,4,5}
-	head := Gen(arr)
+	//arr := []int{1,2,3,4,5}
+	head := createList()
 	PrintList(head)
 	println()
 	res := reverseList(head)
@@ -41,4 +41,37 @@ func PrintList(head *ListNode) {
 		head = head.Next
 	}
 	println()
+}
+
+func createList() *ListNode {
+	head := &ListNode{
+		Val: 1,
+	}
+	tail := head
+
+	for i := 2; i < 5; i++ {
+		tail.Next = &ListNode{Val: i}
+		tail = tail.Next
+	}
+
+	return head
+}
+
+
+
+
+
+
+
+
+func create() *ListNode {
+	head := &ListNode{Val: 1}
+	tail := head
+
+	for i := 2; i < 10; i++ {
+		tail.Next = &ListNode{Val: i}
+		tail = tail.Next
+	}
+
+	return head
 }

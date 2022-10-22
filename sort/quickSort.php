@@ -5,6 +5,7 @@
 
 class QuickSort
 {
+    // =.= leetcode执行超时了
     public static function sort($arr)
     {
         $count = count($arr);

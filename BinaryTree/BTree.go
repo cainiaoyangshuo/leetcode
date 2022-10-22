@@ -1,5 +1,6 @@
 package BinaryTree
 
+import "fmt"
 
 type TreeNode struct {
 	Val int
@@ -44,3 +45,21 @@ func CreateByBreadthFirstSearch(inputList []int) *TreeNode {
 
 	return root
 }
+
+func Inorder(root *TreeNode) {
+	if root == nil {
+		return
+	}
+
+	Inorder(root.Left)
+	fmt.Printf("%v\n", root.Val)
+	Inorder(root.Right)
+}
+
+/**
+ * 二叉树层序遍历
+ */
+func levelOrder(root *TreeNode) {
+
+}
+

@@ -7,7 +7,7 @@ package _02removeKdigits
 
 import "strings"
 
-// 个别case过不了，找不到问题，暂时考率用单调栈实现
+//递归 个别case过不了，找不到问题，暂时考率用单调栈实现
 func removeKdigits(num string, k int) string {
 	n := len(num)
 	if n <= k {
@@ -47,8 +47,9 @@ func removeKdigits(num string, k int) string {
 }
 
 /*
- 单调栈
- 单调递增栈：
+ * 思路：单调栈，单调递增栈：
+ * 如何判断当前字符删不删，受后面的字符影响，所以应该暂存。用什么存，单调栈。为什么是单调栈，因为本题要维护高位递增，要用最后一个数来进行比较，找到右侧第一个比它小的数，用它替换栈顶。
+ *
  */
 func removeKdigits1(num string, k int) string {
 	n := len(num)
