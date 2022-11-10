@@ -12,9 +12,13 @@ import (
 )
 
 func TestQuickSort(t *testing.T) {
-	nums := []int{5, 2, 3, 9}
+	nums := []int{3, 1, 5, 2, 10, 8, 9, 22}
 	res := QuickSort(nums)
 	fmt.Printf("%+v\n", res)
 }
 
-
+func TestGeekQuickSort(t *testing.T) {
+	nums := []int{3, 1, 5, 2, 10, 8, 9, 22}
+	GeekQuickSort(nums)
+	fmt.Print(nums)
+}

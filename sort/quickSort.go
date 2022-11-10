@@ -1,5 +1,6 @@
 package sort
 
+
 /**
  * @desc
  * @date 2022/4/19
@@ -41,4 +42,42 @@ func QuickSort(nums []int) []int {
 	}
 
 	return sort(nums, 0, len(nums)-1)
+}
+
+func GeekQuickSort(nums []int) {
+
+	//获取分区点
+	var partition func(nums []int, start, end int) int
+	partition = func(nums []int, start, end int)  int {
+		//选最后一个作为对比
+		pivot := nums[end]
+
+		i := start
+		for j := start; j < end; j++ {
+			if nums[j] < pivot {
+				//交换位置，原地排序
+				if i != j {
+					nums[i], nums[j] = nums[j], nums[i]
+				}
+				i++
+			}
+		}
+
+		nums[i], nums[end] = nums[end], nums[i]
+
+		return i
+	}
+
+	//递归
+	var separateSort func(nums []int, start, end int)
+	separateSort = func(nums []int, start, end int) {
+		if start >= end {
+			return
+		}
+		i := partition(nums, start, end)
+		separateSort(nums, start, i-1)
+		separateSort(nums, i+1, end)
+	}
+
+	separateSort(nums, 0, len(nums)-1)
 }
