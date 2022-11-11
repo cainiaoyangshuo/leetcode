@@ -4,21 +4,22 @@
  * @user yangshuo
  */
 
-package leetcode
+package main
 
 import (
 	"sync"
 )
 
-func Main()  {
+func main()  {
 	a(2,3)
 }
+var wg = sync.WaitGroup{}
 func a(m, n int)  {
-	var wg = sync.WaitGroup{}
-	ch1 := make(chan int)
-	wg.Add(m+n)
 
-	for i := 0; i < m; i++ {
+	ch1 := make(chan int)
+	wg.Add(10)
+
+
 		go func() {
 
 			for j := 0; j < 5; j++ {
@@ -27,9 +28,9 @@ func a(m, n int)  {
 				wg.Done()
 			}
 		}()
-	}
 
-	for k := 0; k < n; k++ {
+
+
 		go func() {
 			for {
 				v := <- ch1
@@ -37,8 +38,7 @@ func a(m, n int)  {
 				wg.Done()
 			}
 		}()
-	}
 
-	close(ch1)
+
 	wg.Wait()
 }

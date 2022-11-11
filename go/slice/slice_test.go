@@ -6,8 +6,17 @@
 
 package slice
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 func Test_slice(t *testing.T)  {
 	_go()
+}
+
+func TestSliceAsParams(t *testing.T) {
+	a := []int{1,2}
+	SliceAsParams(a)
+	fmt.Print(a)
 }

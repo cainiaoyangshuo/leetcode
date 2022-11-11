@@ -7,80 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9748824a-605f-483c-8b33-f2e29b4fcb75" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/BinaryTree/BTree.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/101.对称二叉树/isSymmetric.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/13romanToInt/romanToInt.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/13romanToInt/roman_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/169majorityElement/maj_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/169majorityElement/majorityElement.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/26removeDuplicates/removeDuplicates.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/27removeElement/removeElement.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/28strStr/strStr.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/28strStr/str_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/53.最大子序和/maxSubArray.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List/List.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List/list_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/146LRU/LRU.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/146LRU/LRU_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/148sortList/sortList.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/152maxProduct/maxProduct.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/153findMin/findMin.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/22.generateParenthesis/d_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/22.generateParenthesis/generateParenthesis.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/229majorityElement/ma_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/229majorityElement/majorityElement.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/322coinChange/coinChange.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/36.isValidSudoku/isValidSudoku.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/36.isValidSudoku/isValidSudoku_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/468validIPAddress/validIPAddress.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/468validIPAddress/valid_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/55canJump/canJump.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/55canJump/jump_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/62uniquePaths/uniquePaths.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/79.exist/exist.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comm.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mianshijindian/0101/isUnique.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/channel/multiProducer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/channel/multiProducer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/728.selfDividingNumbers/selfDividingNumbers.go" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/728.selfDividingNumbers/selfDividingNumbers.go" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/charge" beforeDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/utils" beforeDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Cases/all/withdrawproxy" beforeDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Common" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/Common" afterDir="true" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Contract" beforeDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Creditloan" beforeDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Duotou" beforeDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/FundGate" beforeDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Gold" beforeDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Life" beforeDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Medal" beforeDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/O2O" beforeDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Open" beforeDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/Protos/Ptp" beforeDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/api/public/static/app" beforeDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-concat/node_modules/chalk/node_modules/.bin/strip-ansi" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-concat/node_modules/chalk/node_modules/.bin/strip-ansi" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-jshint/node_modules/.bin/jshint" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-jshint/node_modules/.bin/jshint" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/.bin/shjs" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/.bin/shjs" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/.bin/strip-json-comments" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/.bin/strip-json-comments" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-uglify/node_modules/.bin/uglifyjs" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-uglify/node_modules/.bin/uglifyjs" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-uglify/node_modules/chalk/node_modules/.bin/strip-ansi" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-uglify/node_modules/chalk/node_modules/.bin/strip-ansi" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-uglify/node_modules/maxmin/node_modules/.bin/gzip-size" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-uglify/node_modules/maxmin/node_modules/.bin/gzip-size" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-uglify/node_modules/maxmin/node_modules/.bin/pretty-bytes" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-contrib-uglify/node_modules/maxmin/node_modules/.bin/pretty-bytes" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/.bin/cleancss" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/.bin/cleancss" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/.bin/csslint" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/.bin/csslint" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/.bin/gunzip-js" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/.bin/gunzip-js" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/.bin/gzip-js" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/.bin/gzip-js" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/gzip-js/node_modules/.bin/crc32" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/gzip-js/node_modules/.bin/crc32" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/gzip-js/node_modules/.bin/deflate-js" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/gzip-js/node_modules/.bin/deflate-js" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/gzip-js/node_modules/.bin/inflate-js" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt-css/node_modules/gzip-js/node_modules/.bin/inflate-js" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/cake" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/cake" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/coffee" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/coffee" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/js-yaml" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/js-yaml" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/nopt" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/nopt" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/rimraf" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/rimraf" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/which" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/.bin/which" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/js-yaml/node_modules/.bin/esparse" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/js-yaml/node_modules/.bin/esparse" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/js-yaml/node_modules/.bin/esvalidate" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/node_modules/grunt/node_modules/js-yaml/node_modules/.bin/esvalidate" afterDir="false" />
-      <change beforePath="$USER_HOME$/projects/git/firstp2p/openapi/controllers/BaseAction.php" beforeDir="false" afterPath="$USER_HOME$/projects/git/firstp2p/openapi/controllers/BaseAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/BTree.go" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/BTree.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/btree_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/btree_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/goroutine/printIntAndStr.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/goroutine/printIntAndStr.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/goroutine/printIntAndStr_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/goroutine/printIntAndStr_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/main/a.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/main/a.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/slice/slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/slice/slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/slice/slice_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/slice/slice_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/crc32.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/crc32.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +57,7 @@
       <find>$charArr</find>
       <find>char</find>
       <find>1414/</find>
+      <find>mysql_escape_string</find>
     </findStrings>
     <replaceStrings>
       <replace>1114</replace>
@@ -168,6 +109,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Medium/98验证二叉搜索树/98验证二叉搜索树.php" />
         <option value="$PROJECT_DIR$/Medium/200.numIslands/numIslands.php" />
+        <option value="$PROJECT_DIR$/php/crc32.php" />
       </list>
     </option>
   </component>
@@ -181,11 +123,10 @@
     <handled-path value="$USER_HOME$/projects/git/firstp2p/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="40" />
-    <option name="y" value="23" />
-    <option name="width" value="1400" />
-    <option name="height" value="837" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="25" />
+    <option name="width" value="1440" />
+    <option name="height" value="875" />
   </component>
   <component name="ProjectId" id="27YJtmQT32FmLFnw03MlIepYdyH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -204,63 +145,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Easy" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Easy" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="101.对称二叉树" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Easy" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="141.环形链表" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="List" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Medium" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Medium" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="200.numIslands" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Medium" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="215数组中第k个最大元素" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="search" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="leetcode" type="47feb1d3:ProjectViewModuleNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -280,10 +177,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/go/main" />
       <recent name="$PROJECT_DIR$/php/zyb" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.Test_Jump/test2 in a/Medium/55canJump">
+  <component name="RunManager" selected="Go Test.TestMultiProducer in a/go/channel">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
@@ -301,52 +199,51 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_Jump/test1 in a/Medium/55canJump" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGeekQuickSort in a/sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/Medium/55canJump" />
+      <working_directory value="$PROJECT_DIR$/sort" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="a/Medium/55canJump" />
+      <package value="a/sort" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_Jump\E$/^\Qtest1\E$" />
+      <pattern value="^\QTestGeekQuickSort\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_Jump/test2 in a/Medium/55canJump" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMultiProducer in a/go/channel" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/Medium/55canJump" />
+      <working_directory value="$PROJECT_DIR$/go/channel" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="a/Medium/55canJump" />
+      <package value="a/go/channel" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_Jump\E$/^\Qtest2\E$" />
+      <pattern value="^\QTestMultiProducer\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_LRU in a/Medium/146LRU" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMultiProducerOneConsumer in a/go/channel" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/Medium/146LRU" />
+      <working_directory value="$PROJECT_DIR$/go/channel" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="a/Medium/146LRU" />
+      <package value="a/go/channel" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_LRU\E$" />
+      <pattern value="^\QTestMultiProducerOneConsumer\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_strStr in a/Easy/28strStr" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestQuickSort in QuickSort_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/Easy/28strStr" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="a/Easy/28strStr" />
+      <working_directory value="$PROJECT_DIR$/../algo_wangzheng/go/12_sorts" />
+      <kind value="FILE" />
+      <package value="a" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/../algo_wangzheng/go/12_sorts/QuickSort_test.go" />
       <framework value="gotest" />
-      <pattern value="^\QTest_strStr\E$" />
+      <pattern value="^\QTestQuickSort\E$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_strStr/2 in a/Easy/28strStr" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -384,16 +281,18 @@
     <list>
       <item itemvalue="Go Build.go build " />
       <item itemvalue="Go Test.go test " />
-      <item itemvalue="Go Test.Test_LRU in a/Medium/146LRU" />
-      <item itemvalue="Go Test.Test_strStr in a/Easy/28strStr" />
       <item itemvalue="Go Test.Test_strStr/2 in a/Easy/28strStr" />
-      <item itemvalue="Go Test.Test_Jump/test1 in a/Medium/55canJump" />
-      <item itemvalue="Go Test.Test_Jump/test2 in a/Medium/55canJump" />
+      <item itemvalue="Go Test.TestQuickSort in QuickSort_test.go" />
+      <item itemvalue="Go Test.TestGeekQuickSort in a/sort" />
+      <item itemvalue="Go Test.TestMultiProducer in a/go/channel" />
+      <item itemvalue="Go Test.TestMultiProducerOneConsumer in a/go/channel" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.Test_Jump/test2 in a/Medium/55canJump" />
-        <item itemvalue="Go Test.Test_Jump/test1 in a/Medium/55canJump" />
+        <item itemvalue="Go Test.TestMultiProducer in a/go/channel" />
+        <item itemvalue="Go Test.TestMultiProducerOneConsumer in a/go/channel" />
+        <item itemvalue="Go Test.TestGeekQuickSort in a/sort" />
+        <item itemvalue="Go Test.TestQuickSort in QuickSort_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -411,32 +310,32 @@
       <workItem from="1604157117476" duration="39921000" />
       <workItem from="1605454517097" duration="20956000" />
       <workItem from="1648350513836" duration="23275000" />
+      <workItem from="1667310593254" duration="4623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123848000" />
+    <option name="totallyTimeSpent" value="128471000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="25" width="1440" height="875" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23390558" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23676682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31076178" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30108827" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30108827" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22389127" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.286578" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30620155" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -446,68 +345,7 @@
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/Medium/55canJump/canJump.go</url>
-          <line>40</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/projects/git/firstp2p/core/service/UserReservationService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5920">
-          <caret line="349" column="26" lean-forward="false" selection-start-line="349" selection-start-column="26" selection-end-line="349" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects/git/firstp2p/libs/db/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="72" column="27" lean-forward="false" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects/git/firstp2p/core/dao/UserReservationModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
-          <caret line="151" column="25" lean-forward="true" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects/git/firstp2p/libs/db/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="72" column="27" lean-forward="false" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects/git/firstp2p/core/service/UserReservationService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5920">
-          <caret line="349" column="26" lean-forward="false" selection-start-line="349" selection-start-column="26" selection-end-line="349" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects/git/firstp2p/api/controllers/v2/deal/ReserveList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="58" column="46" lean-forward="false" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18680">
-          <caret line="934" column="9" lean-forward="false" selection-start-line="934" selection-start-column="9" selection-end-line="934" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11020">
@@ -594,19 +432,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/scandir.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="200">
             <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -616,9 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,7 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -634,9 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#31#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -644,7 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="338" column="9" lean-forward="false" selection-start-line="338" selection-start-column="9" selection-end-line="338" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -652,7 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1039">
           <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,7 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -668,7 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
           <caret line="57" column="25" lean-forward="false" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -676,7 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -684,7 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="1373" column="37" lean-forward="false" selection-start-line="1373" selection-start-column="37" selection-end-line="1373" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -692,9 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding>
-            <element signature="e#6#32#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -702,6 +516,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/scandir.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/git/firstp2p/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/git/firstp2p/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/crc32.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/git/firstp2p/libs/utils/PhalconRPCInject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="67" column="31" lean-forward="true" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/git/firstp2p/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/git/firstp2p/core/dao/AdvModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/git/firstp2p/libs/db/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="184" column="15" lean-forward="true" selection-start-line="184" selection-start-column="15" selection-end-line="184" selection-end-column="15" />
           <folding />
         </state>
       </provider>
