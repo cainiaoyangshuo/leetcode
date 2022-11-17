@@ -25,3 +25,9 @@ func SliceAsParams(s []int) {
 	s[1] = 0
 	fmt.Print(s)
 }
+
+func ChangeSlice(s []int)  {
+	s[0] = 3
+	fmt.Printf("%p: ", &s)
+	fmt.Println(s)
+}

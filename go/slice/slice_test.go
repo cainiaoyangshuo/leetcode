@@ -20,3 +20,13 @@ func TestSliceAsParams(t *testing.T) {
 	SliceAsParams(a)
 	fmt.Print(a)
 }
+
+func TestChangeSlice(t *testing.T) {
+	a := []int{1, 2}
+	fmt.Printf("%p: ", &a)
+	fmt.Println(a)
+	//修改slice
+	ChangeSlice(a)
+	fmt.Printf("%p: ", &a)
+	fmt.Println(a)
+}

@@ -7,20 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9748824a-605f-483c-8b33-f2e29b4fcb75" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/channel.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/channel/multiProducer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/channel/multiProducer_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/huawei/hj25/hj25.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/huawei/hj30/hj30.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/huawei/hj39/hj39.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/huawei/hj42/hj42.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/huawei/hj68/hj68.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/huawei/hj88/hj88.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/huawei/hj89/hj89.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/BTree.go" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/BTree.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/btree_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/btree_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go/goroutine/printIntAndStr.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/goroutine/printIntAndStr.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go/goroutine/printIntAndStr_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/goroutine/printIntAndStr_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go/main/a.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/main/a.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go/slice/slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/slice/slice.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go/slice/slice_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/slice/slice_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/crc32.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/crc32.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huawei/hj19/hj19.go" beforeDir="false" afterPath="$PROJECT_DIR$/huawei/hj19/hj19.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +179,7 @@
       <recent name="$PROJECT_DIR$/php/zyb" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestMultiProducer in a/go/channel">
+  <component name="RunManager" selected="Go Build.go build a/huawei/hj25">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
@@ -189,6 +187,15 @@
       <package value="a" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build a/huawei/hj25" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="a/huawei/hj25" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/huawei/hj25/hj25.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build " type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
@@ -199,16 +206,28 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestGeekQuickSort in a/sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestChangeSlice in a/go/slice" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/sort" />
+      <working_directory value="$PROJECT_DIR$/go/slice" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="a/sort" />
+      <package value="a/go/slice" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestGeekQuickSort\E$" />
+      <pattern value="^\QTestChangeSlice\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestHj25 in a/huawei/hj25" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/huawei/hj25" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="a/huawei/hj25" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestHj25\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestMultiProducer in a/go/channel" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -223,39 +242,16 @@
       <pattern value="^\QTestMultiProducer\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMultiProducerOneConsumer in a/go/channel" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSliceAsParams in a/go/slice" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/go/channel" />
+      <working_directory value="$PROJECT_DIR$/go/slice" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="a/go/channel" />
+      <package value="a/go/slice" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestMultiProducerOneConsumer\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestQuickSort in QuickSort_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/../algo_wangzheng/go/12_sorts" />
-      <kind value="FILE" />
-      <package value="a" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/../algo_wangzheng/go/12_sorts/QuickSort_test.go" />
-      <framework value="gotest" />
-      <pattern value="^\QTestQuickSort\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_strStr/2 in a/Easy/28strStr" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/Easy/28strStr" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="a/Easy/28strStr" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_strStr\E$/^\Q2\E$" />
+      <pattern value="^\QTestSliceAsParams\E$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -281,18 +277,19 @@
     <list>
       <item itemvalue="Go Build.go build " />
       <item itemvalue="Go Test.go test " />
-      <item itemvalue="Go Test.Test_strStr/2 in a/Easy/28strStr" />
-      <item itemvalue="Go Test.TestQuickSort in QuickSort_test.go" />
-      <item itemvalue="Go Test.TestGeekQuickSort in a/sort" />
       <item itemvalue="Go Test.TestMultiProducer in a/go/channel" />
-      <item itemvalue="Go Test.TestMultiProducerOneConsumer in a/go/channel" />
+      <item itemvalue="Go Test.TestSliceAsParams in a/go/slice" />
+      <item itemvalue="Go Test.TestChangeSlice in a/go/slice" />
+      <item itemvalue="Go Test.TestHj25 in a/huawei/hj25" />
+      <item itemvalue="Go Build.go build a/huawei/hj25" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build a/huawei/hj25" />
+        <item itemvalue="Go Test.TestHj25 in a/huawei/hj25" />
+        <item itemvalue="Go Test.TestChangeSlice in a/go/slice" />
+        <item itemvalue="Go Test.TestSliceAsParams in a/go/slice" />
         <item itemvalue="Go Test.TestMultiProducer in a/go/channel" />
-        <item itemvalue="Go Test.TestMultiProducerOneConsumer in a/go/channel" />
-        <item itemvalue="Go Test.TestGeekQuickSort in a/sort" />
-        <item itemvalue="Go Test.TestQuickSort in QuickSort_test.go" />
       </list>
     </recent_temporary>
   </component>

@@ -2,6 +2,7 @@
 <module type="WEB_MODULE" version="4">
   <component name="Go" enabled="true" />
   <component name="NewModuleRootManager">
+    <content url="file://$USER_HOME$/Downloads/09丨子查询：子查询的种类都有哪些，如何提高子查询的性能？_files" />
     <content url="file://$MODULE_DIR$/../algo_wangzheng" />
     <content url="file://$MODULE_DIR$" />
     <content url="file://$MODULE_DIR$/../../algo_wangzheng" />
